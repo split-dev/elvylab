@@ -1,0 +1,34 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "1670396170b86448d1": {
+      "type": "apps",
+      "blocks": {
+        "4b70d0e2-341f-4edc-89ed-5f9025f3d4fa": {
+          "type": "shopify:\/\/apps\/quiz-recommendation-emails\/blocks\/tangent-product-recommendation\/51b4f65b-1bd1-4373-a212-7af0ce5a9774",
+          "settings": {
+            "width": 80,
+            "show_variants": false
+          }
+        }
+      },
+      "block_order": [
+        "4b70d0e2-341f-4edc-89ed-5f9025f3d4fa"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1670396170b86448d1"
+  ]
+}

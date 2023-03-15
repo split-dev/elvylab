@@ -1,0 +1,621 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "c089724f-3e63-4872-99fd-5886b8c05cf3": {
+      "type": "image-banner",
+      "blocks": {
+        "template--14706063638663__c089724f-3e63-4872-99fd-5886b8c05cf3-1668968938a2ca774c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "FREQUENTLY ASKED QUESTIONS",
+            "heading_size": "h1"
+          }
+        },
+        "template--14706063638663__c089724f-3e63-4872-99fd-5886b8c05cf3-1668968938a2ca774c-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14706063638663__c089724f-3e63-4872-99fd-5886b8c05cf3-1668968938a2ca774c-0",
+        "template--14706063638663__c089724f-3e63-4872-99fd-5886b8c05cf3-1668968938a2ca774c-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/fernando-santander-yjWjLmv13FI-unsplash.jpg",
+        "image_overlay_opacity": 40,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "7bb9108e-7da0-45ea-929c-47a87287b98f": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--14706063638663__7bb9108e-7da0-45ea-929c-47a87287b98f-1668968698b7a89773-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is men's skin really that different?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes! Not only is men's skin about 25% thicker than women's and there's often more facial hair present, the higher amount of testosterone means skin concerns and the aging process can look much different (even if not visible on the surface!). It's important to use products that address men's specific needs.<\/p>",
+            "page": ""
+          }
+        },
+        "template--14706063638663__7bb9108e-7da0-45ea-929c-47a87287b98f-1668968698b7a89773-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are these products going to do for me?",
+            "icon": "question_mark",
+            "row_content": "<p>Keep you looking and feeling good! Each product is formulated especially for men to kick aging concerns like dark spots and wrinkles to the curb while targeting issues that men face most: dry patches, breakouts, enlarged pores and razor bumps and burn.<\/p>",
+            "page": ""
+          }
+        },
+        "template--14706063638663__7bb9108e-7da0-45ea-929c-47a87287b98f-1668968698b7a89773-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What makes ELVY Lab different?",
+            "icon": "question_mark",
+            "row_content": "<p>ELVY Lab was created to offer a simple, results-driven system that caters exclusively to a man's skin needs. Formulated with scientists and dermatologist tested, you get all the benefits of smooth, even skin in an easy-to-use 4-Step System without the hassle. <\/p>",
+            "page": ""
+          }
+        },
+        "template--14706063638663__7bb9108e-7da0-45ea-929c-47a87287b98f-1668968698b7a89773-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are they vegan & cruelty-free?",
+            "icon": "question_mark",
+            "row_content": "<p>Every single one of them. <\/p>",
+            "page": ""
+          }
+        },
+        "c837e062-9245-49cb-8aeb-1d0373425d5a": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can anyone use them?",
+            "icon": "question_mark",
+            "row_content": "<p>If you're a guy that deals with dry patches, breakouts, razor bumps and burn, dark circles, enlarged pores or even wrinkles, ELVY Lab is for you.<\/p>",
+            "page": ""
+          }
+        },
+        "51a87324-b52b-4819-af9e-a89ff255ea95": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I only buy the set? Or are the products sold individually?",
+            "icon": "question_mark",
+            "row_content": "<p>Whichever works best for you - you have control! We even offer subscription options so you never go without looking your best.<\/p>",
+            "page": ""
+          }
+        },
+        "54b7d2b3-1d57-4aba-931c-6393846856a4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is ELVY Lab good for all skin types?",
+            "icon": "question_mark",
+            "row_content": "<p>ELVY Lab was created with all skin types in mind: oily, dry, you name it. It's just about taking a look at your skin's needs and pairing back or increasing usage depending on what you're seeing. Don't worry though we got you and are here to help if you ever need advice.<\/p>",
+            "page": ""
+          }
+        },
+        "d63bf32a-056a-4297-8f5a-891ea54d21b4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I know if these products are right for me?",
+            "icon": "question_mark",
+            "row_content": "<p>If you're a guy that deals with dry patches, breakouts, razor bumps and burn, dark circles, enlarged pores or even wrinkles, ELVY Lab is for you.<\/p>",
+            "page": ""
+          }
+        },
+        "7cee6d78-0195-43b7-a9de-6ff4a533f147": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is shipping free?",
+            "icon": "question_mark",
+            "row_content": "<p>We'll cover it for any subscription orders! For individual orders, shipping is calculated at checkout. <\/p>",
+            "page": ""
+          }
+        },
+        "a824879c-a6cf-4eb8-b5f6-402da296b8ae": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What's the benefit of getting a subscription?",
+            "icon": "question_mark",
+            "row_content": "<p>When you sign up for a subscription you're locked into our member price of $99 ($125 Value), receive free shipping, and never have to worry about running out of your daily essentials! You can expect a delivery every 30 days and can postpone or cancel at any time.<\/p>",
+            "page": ""
+          }
+        },
+        "31d1693c-979c-4ce2-b38c-c70811082dd7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do I have to use all 4 products?",
+            "icon": "question_mark",
+            "row_content": "<p>Our 4-Step Regimen is designed to be a one-stop-shop that targets each of the major concerns men face: dryness, buildup, dark circles\/eye bags and wrinkles. It's important to have a consistent, well-rounded routine but if you wanted to incorporate individual products into your routine, go for it!<\/p>",
+            "page": ""
+          }
+        },
+        "022aca60-302b-468c-852a-f974c94232fa": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is the packaging recyclable?",
+            "icon": "question_mark",
+            "row_content": "<p>The product boxes and Steps 1-3 outer bottle packaging are completely recyclable! For Cleanser, Serum and Moisturizer just pop off the silver top, toss the inner plastic tube and recycle the rest. <\/p>",
+            "page": ""
+          }
+        },
+        "e1b8b892-ef85-46db-b4dc-77f6cd889c4a": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I know this is going to give me the results I want?",
+            "icon": "question_mark",
+            "row_content": "<p>ELVY Lab was created by a Cosmetics Industry Expert in partnership with leading Scientists and Dermatologists who understand men's skin and the concerns they face on the daily. Each product contains ingredients that address everything from dryness to discoloration and eye bags to wrinkles without a million steps or confusing application. Just great results for guys who want to look and feel their best.<\/p>",
+            "page": ""
+          }
+        },
+        "6a055562-8a9b-40af-98c2-532003056399": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are these products fragranced?",
+            "icon": "question_mark",
+            "row_content": "<p>Each product contains less than 0.5% fragrance.<\/p>",
+            "page": ""
+          }
+        },
+        "f4e65e82-562a-4b34-b1ba-142fc04f198c": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What's your return policy?",
+            "icon": "question_mark",
+            "row_content": "<p>Once you receive your order, you have 30 days to return. <a href=\"mailto:info@elvylab.com\" title=\"mailto:info@elvylab.com\">Contact us<\/a> for more details!<\/p>",
+            "page": ""
+          }
+        },
+        "c592b28b-841b-4766-9395-5e18bba38b77": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Where do you ship to?",
+            "icon": "question_mark",
+            "row_content": "<p>As of today, ELVY Lab is available to ship anywhere in the U.S. We look forward to accommodating other areas in the future - stay tuned!<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14706063638663__7bb9108e-7da0-45ea-929c-47a87287b98f-1668968698b7a89773-0",
+        "template--14706063638663__7bb9108e-7da0-45ea-929c-47a87287b98f-1668968698b7a89773-1",
+        "template--14706063638663__7bb9108e-7da0-45ea-929c-47a87287b98f-1668968698b7a89773-2",
+        "template--14706063638663__7bb9108e-7da0-45ea-929c-47a87287b98f-1668968698b7a89773-3",
+        "c837e062-9245-49cb-8aeb-1d0373425d5a",
+        "51a87324-b52b-4819-af9e-a89ff255ea95",
+        "54b7d2b3-1d57-4aba-931c-6393846856a4",
+        "d63bf32a-056a-4297-8f5a-891ea54d21b4",
+        "7cee6d78-0195-43b7-a9de-6ff4a533f147",
+        "a824879c-a6cf-4eb8-b5f6-402da296b8ae",
+        "31d1693c-979c-4ce2-b38c-c70811082dd7",
+        "022aca60-302b-468c-852a-f974c94232fa",
+        "e1b8b892-ef85-46db-b4dc-77f6cd889c4a",
+        "6a055562-8a9b-40af-98c2-532003056399",
+        "f4e65e82-562a-4b34-b1ba-142fc04f198c",
+        "c592b28b-841b-4766-9395-5e18bba38b77"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "accent-1",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "b0738e5f-832f-4a8a-b2cd-34994747643c": {
+      "type": "collapsible-content",
+      "disabled": true,
+      "blocks": {
+        "template--14706063638663__b0738e5f-832f-4a8a-b2cd-34994747643c-1668968698b7a89773-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What's in it that makes it exfoliating? I don't feel a scrub.",
+            "icon": "question_mark",
+            "row_content": "<p>There are a couple different kinds of exfoliation: physical (which is your traditional scrub) and chemical (which can be acids, enzymes etc. that dissolve vs. buff). We use the latter which covers a larger surface area and causes way less irritation.<\/p>",
+            "page": ""
+          }
+        },
+        "template--14706063638663__b0738e5f-832f-4a8a-b2cd-34994747643c-1668968698b7a89773-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is this good for razor bumps and ingrown hairs?",
+            "icon": "question_mark",
+            "row_content": "<p>It's amazing for them. The exfoliating acids are going to help address them while ingredients like caffeine, glycerin and amino acids help skin bounce back to where it used to be.<\/p>",
+            "page": ""
+          }
+        },
+        "template--14706063638663__b0738e5f-832f-4a8a-b2cd-34994747643c-1668968698b7a89773-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I use it if I have a beard?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes! Exfoliation is key in helping prevent additional ingrowns and breakouts caused by the excess oil in the hair of your beard. Plus there's some nice ingredients in there to keep it looking fresh and clean.<\/p>",
+            "page": ""
+          }
+        },
+        "template--14706063638663__b0738e5f-832f-4a8a-b2cd-34994747643c-1668968698b7a89773-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What type of skin is this for?",
+            "icon": "question_mark",
+            "row_content": "<p>ELVY Lab is great for all skin types. Our Gentle Exfoliating Cleanser is especially great for someone who's dealing with razor bumps, ingrowns, skin roughness or even excess oiliness or zits.<\/p>",
+            "page": ""
+          }
+        },
+        "31408df9-c996-478c-8b8e-c1fd56bc0ce9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is a tingling feeling normal?",
+            "icon": "question_mark",
+            "row_content": "<p>Totally normal if you're new to acid exfoliators - it lets you know it's dissolving all the buildup and gunk. As skin gets more used to them, the tingling will fade but the results won't!<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14706063638663__b0738e5f-832f-4a8a-b2cd-34994747643c-1668968698b7a89773-0",
+        "template--14706063638663__b0738e5f-832f-4a8a-b2cd-34994747643c-1668968698b7a89773-1",
+        "template--14706063638663__b0738e5f-832f-4a8a-b2cd-34994747643c-1668968698b7a89773-2",
+        "template--14706063638663__b0738e5f-832f-4a8a-b2cd-34994747643c-1668968698b7a89773-3",
+        "31408df9-c996-478c-8b8e-c1fd56bc0ce9"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "GENTLE EXFOLIATING CLEANSER",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_first",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "3a9e6f36-0479-474d-83ee-f9883700c73f": {
+      "type": "collapsible-content",
+      "disabled": true,
+      "blocks": {
+        "06060b86-0bae-445f-86b4-c8e3c0c66a3c": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "If I don't have dark spots, should I still use it?",
+            "icon": "question_mark",
+            "row_content": "<p>Yup! It's always easier to prevent than correct, so even if you don't have visible dark spots on the surface, they start below and it's best to stop them in their tracks. Plus, Vitamin C is a powerful antioxidant that helps prevent other signs of skin aging and damage like sagging skin and wrinkles.<\/p>",
+            "page": ""
+          }
+        },
+        "721ab258-bfe3-4917-a10d-4fff4e3a57c7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What's a serum and why do I need one?",
+            "icon": "question_mark",
+            "row_content": "<p>An easy way to think of a serum is as your hard hitting \"treatment step\". They contain a potent combo of ingredients that tackle some of the harder hitting concerns men face like aging, dark spots and sagging skin. When partnered with a cleanser and moisturizer, you have a well-rounded, results-driven routine.<\/p>",
+            "page": ""
+          }
+        },
+        "5dbd61d1-629a-469d-a941-e6c59c2cba71": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I use this if I have facial hair?",
+            "icon": "question_mark",
+            "row_content": "<p>Absolutely - the lightweight formula won't way you down or cause greasiness, plus there are some nice hydrators in there to keep your beard smooth and nourished.<\/p>",
+            "page": ""
+          }
+        },
+        "2fe73b25-dc71-4b8f-b988-bd7696644cb2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is this going to make me breakout?",
+            "icon": "question_mark",
+            "row_content": "<p>Every guy's skin is different but the combination of lightweight, results-driven ingredients won't weigh skin down or cause build up - one of the leading causes of breakouts. On top of that, antioxidant-rich ingredients like vitamin C and Niacinamide are great for helping avoid environment-related inflammation.<\/p>",
+            "page": ""
+          }
+        },
+        "template--14706063638663__3a9e6f36-0479-474d-83ee-f9883700c73f-1668968698b7a89773-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I use this for my dark circles?",
+            "icon": "question_mark",
+            "row_content": "<p>We don't recommend using this product around the eyes. For that, you can rely on our Firming & Toning Eye Cream which sends dark circles and eye bags packing.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "06060b86-0bae-445f-86b4-c8e3c0c66a3c",
+        "721ab258-bfe3-4917-a10d-4fff4e3a57c7",
+        "5dbd61d1-629a-469d-a941-e6c59c2cba71",
+        "2fe73b25-dc71-4b8f-b988-bd7696644cb2",
+        "template--14706063638663__3a9e6f36-0479-474d-83ee-f9883700c73f-1668968698b7a89773-0"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "BRIGHTENING SERUM",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_first",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "3f7e0ebf-a14f-4c60-a537-00582f4701b9": {
+      "type": "collapsible-content",
+      "disabled": true,
+      "blocks": {
+        "template--14706063638663__3f7e0ebf-a14f-4c60-a537-00582f4701b9-1668968698b7a89773-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do I need to moisturize every day?",
+            "icon": "question_mark",
+            "row_content": "<p>Yup! Skin requires a mix of moisture and hydration (this one does both) to keep it looking even and smooth. While some guys need more than others, moisture as a whole is essential.<\/p>",
+            "page": ""
+          }
+        },
+        "template--14706063638663__3f7e0ebf-a14f-4c60-a537-00582f4701b9-1668968698b7a89773-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "If I'm already oily, should I use this?",
+            "icon": "question_mark",
+            "row_content": "<p>Fun fact: most men who are oily are actually in NEED of moisture. Pumping out oil is the skin's way of moisturizing itself when it's in need or lacking. Applying a lightweight formula like Replenishing Moisturizer may even HELP with your excess oil. Start off with 1 pump and go from there.<\/p>",
+            "page": ""
+          }
+        },
+        "template--14706063638663__3f7e0ebf-a14f-4c60-a537-00582f4701b9-1668968698b7a89773-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "If I'm already using the serum, why should I moisturize?",
+            "icon": "question_mark",
+            "row_content": "<p>Our Brightening Serum packs on the targeted benefits like brightening and firming but isn't going to fully moisturize your skin. Using them together gives you a well-rounded approach to treatment-oriented results and daily moisture maintenance.<\/p>",
+            "page": ""
+          }
+        },
+        "template--14706063638663__3f7e0ebf-a14f-4c60-a537-00582f4701b9-1668968698b7a89773-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is this good for beards too?",
+            "icon": "question_mark",
+            "row_content": "<p>It's great for beards! The lightweight moisturizers won't leave your beard greasy at all - just smooth and nourished. Plus, properly moisturized skin can help avoid ingrowns and razor bumps when grooming it.<\/p>",
+            "page": ""
+          }
+        },
+        "5672dcd0-0dc1-4b7e-b394-a87297c153ef": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will this help with my razor bumps and burn?",
+            "icon": "question_mark",
+            "row_content": "<p>Yup! Properly moisturized skin is more resilient which means it's less susceptible to face razor-induced damaged. As an added bonus, ingredients like Shea Butter and Vitamin E help calm the area down and promote a faster bounce back.<\/p>",
+            "page": ""
+          }
+        },
+        "0c95c91d-0d53-40c6-9e92-dd7c36ff3361": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14706063638663__3f7e0ebf-a14f-4c60-a537-00582f4701b9-1668968698b7a89773-0",
+        "template--14706063638663__3f7e0ebf-a14f-4c60-a537-00582f4701b9-1668968698b7a89773-1",
+        "template--14706063638663__3f7e0ebf-a14f-4c60-a537-00582f4701b9-1668968698b7a89773-2",
+        "template--14706063638663__3f7e0ebf-a14f-4c60-a537-00582f4701b9-1668968698b7a89773-3",
+        "5672dcd0-0dc1-4b7e-b394-a87297c153ef",
+        "0c95c91d-0d53-40c6-9e92-dd7c36ff3361"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "REPLENISHING MOISTURIZER",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "6e1b85ae-83e1-460d-969f-94185c454c2c": {
+      "type": "collapsible-content",
+      "disabled": true,
+      "blocks": {
+        "template--14706063638663__6e1b85ae-83e1-460d-969f-94185c454c2c-1668968698b7a89773-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why would I need a separate product for my eyes?",
+            "icon": "question_mark",
+            "row_content": "<p>Your under-eyes are about 10x thinner than the rest of your skin. This means it's easily susceptible to damage and aging concerns and needs products and ingredients that cater directly to it without being too heavy or irritating. <\/p>",
+            "page": ""
+          }
+        },
+        "template--14706063638663__6e1b85ae-83e1-460d-969f-94185c454c2c-1668968698b7a89773-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can't I just use the moisturizer?",
+            "icon": "question_mark",
+            "row_content": "<p>Our Firming & Toning Eye Cream moisturizes, yes, but it also contains ingredients that target eye-specific concerns like dark circles, puffiness and under-eye bags. You wouldn't want to miss out on those benefits, right?<\/p>",
+            "page": ""
+          }
+        },
+        "template--14706063638663__6e1b85ae-83e1-460d-969f-94185c454c2c-1668968698b7a89773-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What's special about the applicator?",
+            "icon": "question_mark",
+            "row_content": "<p>Our metal applicator doesn't just help increase the product absorption - it instantly cools the area which can decrease puffiness as the metal rollers invigorate skin and promote circulation. Eye bags never stood a chance.<\/p>",
+            "page": ""
+          }
+        },
+        "template--14706063638663__6e1b85ae-83e1-460d-969f-94185c454c2c-1668968698b7a89773-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why is there caffeine in it?",
+            "icon": "question_mark",
+            "row_content": "<p>Studies have shown that caffeine constricts blood flow in skin which in turn, makes it appear firmer and brighter. What this means for under-eyes is less visibly puffiness and dark circles. It's also a powerful antioxidant which can help prevent the already-thin skin under eyes from damage and faster aging.<\/p>",
+            "page": ""
+          }
+        },
+        "ec960720-00e2-4be5-b1af-66699b35e2ff": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do I need to use the applicator or can I apply it with fingers?",
+            "icon": "question_mark",
+            "row_content": "<p>If you want to sure but you'll be missing out on some additional puffiness-reduction support! The tiny rollers and cool-to-the-touch tip do wonders for helping circulation and tackling under eye bags.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14706063638663__6e1b85ae-83e1-460d-969f-94185c454c2c-1668968698b7a89773-0",
+        "template--14706063638663__6e1b85ae-83e1-460d-969f-94185c454c2c-1668968698b7a89773-1",
+        "template--14706063638663__6e1b85ae-83e1-460d-969f-94185c454c2c-1668968698b7a89773-2",
+        "template--14706063638663__6e1b85ae-83e1-460d-969f-94185c454c2c-1668968698b7a89773-3",
+        "ec960720-00e2-4be5-b1af-66699b35e2ff"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "TONING & FIRMING EYE CREAM",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "438bcfa2-7c4f-4271-86e2-62fc537caafd": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "template--14706063638663__438bcfa2-7c4f-4271-86e2-62fc537caafd-1668968939bdb8bbe6-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>FEELING SOCIAL?<\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--14706063638663__438bcfa2-7c4f-4271-86e2-62fc537caafd-1668968939bdb8bbe6-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1668970885cfe45e00": {
+      "type": "apps",
+      "disabled": true,
+      "blocks": {
+        "ad97ce84-a6e6-4f4e-958d-a02cd8d2d48d": {
+          "type": "shopify:\/\/apps\/tagembed-social-media-review\/blocks\/app-block\/16930ea9-fb6e-46ac-90fd-526ff0431478",
+          "settings": {
+            "tagembed_widget": "73246",
+            "tagembed_widget_position": "center",
+            "tagembed_widget_height": "500",
+            "tagembed_widget_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "ad97ce84-a6e6-4f4e-958d-a02cd8d2d48d"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "364a611a-eb4e-4abd-b269-5638ee308dcf": {
+      "type": "newsletter",
+      "blocks": {
+        "template--14706063638663__364a611a-eb4e-4abd-b269-5638ee308dcf-1668968698b0fb9180-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "NEWSLETTER",
+            "heading_size": "h2"
+          }
+        },
+        "template--14706063638663__364a611a-eb4e-4abd-b269-5638ee308dcf-1668968698b0fb9180-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Subscribe to our newsletter to receive 15% off your first order and skincare tips just for men.<\/p>"
+          }
+        },
+        "template--14706063638663__364a611a-eb4e-4abd-b269-5638ee308dcf-1668968698b0fb9180-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--14706063638663__364a611a-eb4e-4abd-b269-5638ee308dcf-1668968698b0fb9180-0",
+        "template--14706063638663__364a611a-eb4e-4abd-b269-5638ee308dcf-1668968698b0fb9180-1",
+        "template--14706063638663__364a611a-eb4e-4abd-b269-5638ee308dcf-1668968698b0fb9180-2"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c089724f-3e63-4872-99fd-5886b8c05cf3",
+    "7bb9108e-7da0-45ea-929c-47a87287b98f",
+    "b0738e5f-832f-4a8a-b2cd-34994747643c",
+    "3a9e6f36-0479-474d-83ee-f9883700c73f",
+    "3f7e0ebf-a14f-4c60-a537-00582f4701b9",
+    "6e1b85ae-83e1-460d-969f-94185c454c2c",
+    "438bcfa2-7c4f-4271-86e2-62fc537caafd",
+    "1668970885cfe45e00",
+    "364a611a-eb4e-4abd-b269-5638ee308dcf"
+  ]
+}

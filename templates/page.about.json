@@ -1,0 +1,325 @@
+{
+  "sections": {
+    "57909bf1-44dd-43b7-a0c7-7fbc14174f5b": {
+      "type": "image-banner",
+      "blocks": {
+        "template--14695047561351__57909bf1-44dd-43b7-a0c7-7fbc14174f5b-16680295226dfcb7aa-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "LET US DO THE HEAVY LIFTING.",
+            "heading_size": "h0"
+          }
+        },
+        "template--14695047561351__57909bf1-44dd-43b7-a0c7-7fbc14174f5b-16680295226dfcb7aa-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--14695047561351__57909bf1-44dd-43b7-a0c7-7fbc14174f5b-16680295226dfcb7aa-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14695047561351__57909bf1-44dd-43b7-a0c7-7fbc14174f5b-16680295226dfcb7aa-0",
+        "template--14695047561351__57909bf1-44dd-43b7-a0c7-7fbc14174f5b-16680295226dfcb7aa-1",
+        "template--14695047561351__57909bf1-44dd-43b7-a0c7-7fbc14174f5b-16680295226dfcb7aa-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/karsten-winegeart-0Wra5YYVQJE-unsplash.jpg",
+        "image_overlay_opacity": 50,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "87c4d1ec-7e67-4998-b581-c04f8549937a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14695047561351__87c4d1ec-7e67-4998-b581-c04f8549937a-16678531758504ded5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Men’s skincare shouldn’t be confusing – it should get the job done without the headache. <\/strong><\/p><p>Our easy-to-use system has everything a guy needs to keep looking good with (4) simple, high-impact steps that specifically target concerns men face on the daily: rough skin, buildup, razor burn\/bumps and yes, even breakouts and wrinkles. <\/p><p>Just follow the numbers and we’ll take care of the rest.<\/p>"
+          }
+        },
+        "template--14695047561351__87c4d1ec-7e67-4998-b581-c04f8549937a-16678531758504ded5-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "template--14695047561351__87c4d1ec-7e67-4998-b581-c04f8549937a-16678531758504ded5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>THE REGIMEN<\/p>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "template--14695047561351__87c4d1ec-7e67-4998-b581-c04f8549937a-16678531758504ded5-1",
+        "template--14695047561351__87c4d1ec-7e67-4998-b581-c04f8549937a-16678531758504ded5-2",
+        "template--14695047561351__87c4d1ec-7e67-4998-b581-c04f8549937a-16678531758504ded5-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "291adb52-65a8-400a-b38a-bd31f4e474d7": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14695047561351__291adb52-65a8-400a-b38a-bd31f4e474d7-166802956560904432-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Step 1:<\/strong> <em>Gentle Exfoliating Cleanser<\/em> – get rid of the gunk while smoothing roughness<\/p><p><strong>Step 2: <\/strong><em>Brightening Serum <\/em>– let go of the discoloration and help slow-down skin aging <\/p><p><strong>Step 3:<\/strong> <em>Replenishing Moisturizer<\/em> – gets your skin back to a strong, stress-free place<\/p><p><strong>Step 4:<\/strong> <em>Toning & Firming Eye Cream<\/em> – look like you got more sleep than you did<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14695047561351__291adb52-65a8-400a-b38a-bd31f4e474d7-166802956560904432-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ELVYRegimen.png",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "a615284d-096e-4661-b242-a1dc9a59d25c": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "SUBSCRIBE & SAVE",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": true,
+        "description_style": "body",
+        "collection": "the-regimen",
+        "products_to_show": 4,
+        "columns_desktop": 2,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "20f6efd2-2bb7-4982-bda9-8e1de58ae0f6": {
+      "type": "featured-product",
+      "disabled": true,
+      "blocks": {
+        "template--14695047561351__20f6efd2-2bb7-4982-bda9-8e1de58ae0f6-1667853164e2993e48-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--14695047561351__20f6efd2-2bb7-4982-bda9-8e1de58ae0f6-1667853164e2993e48-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h2"
+          }
+        },
+        "ff2cd51e-12a8-4444-84e9-ad2e11e67f0e": {
+          "type": "text",
+          "settings": {
+            "text": "Daily 4-step skincare routine for men",
+            "text_style": "subtitle"
+          }
+        },
+        "3538b6c1-2efa-46fb-a682-4c758d885394": {
+          "type": "text",
+          "settings": {
+            "text": "($xx value)",
+            "text_style": "body"
+          }
+        },
+        "template--14695047561351__20f6efd2-2bb7-4982-bda9-8e1de58ae0f6-1667853164e2993e48-2": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--14695047561351__20f6efd2-2bb7-4982-bda9-8e1de58ae0f6-1667853164e2993e48-3": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--14695047561351__20f6efd2-2bb7-4982-bda9-8e1de58ae0f6-1667853164e2993e48-4": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--14695047561351__20f6efd2-2bb7-4982-bda9-8e1de58ae0f6-1667853164e2993e48-5": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "template--14695047561351__20f6efd2-2bb7-4982-bda9-8e1de58ae0f6-1667853164e2993e48-6": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--14695047561351__20f6efd2-2bb7-4982-bda9-8e1de58ae0f6-1667853164e2993e48-0",
+        "template--14695047561351__20f6efd2-2bb7-4982-bda9-8e1de58ae0f6-1667853164e2993e48-1",
+        "ff2cd51e-12a8-4444-84e9-ad2e11e67f0e",
+        "3538b6c1-2efa-46fb-a682-4c758d885394",
+        "template--14695047561351__20f6efd2-2bb7-4982-bda9-8e1de58ae0f6-1667853164e2993e48-2",
+        "template--14695047561351__20f6efd2-2bb7-4982-bda9-8e1de58ae0f6-1667853164e2993e48-3",
+        "template--14695047561351__20f6efd2-2bb7-4982-bda9-8e1de58ae0f6-1667853164e2993e48-4",
+        "template--14695047561351__20f6efd2-2bb7-4982-bda9-8e1de58ae0f6-1667853164e2993e48-5",
+        "template--14695047561351__20f6efd2-2bb7-4982-bda9-8e1de58ae0f6-1667853164e2993e48-6"
+      ],
+      "settings": {
+        "product": "the-regimen-test",
+        "color_scheme": "accent-2",
+        "secondary_background": false,
+        "media_position": "left",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "d54aeb90-1700-44f4-b4e9-d2b791b7a88e": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--14695047561351__d54aeb90-1700-44f4-b4e9-d2b791b7a88e-1667853163f14480d1-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "THE STEPS",
+            "icon": "check_mark",
+            "row_content": "<p><strong>Step 1:<\/strong> <em>Gentle Exfoliating Cleanser<\/em> – get rid of the gunk while smoothing roughness<\/p><p><strong>Step 2: <\/strong><em>Brightening Serum <\/em>– let go of the discoloration and help slow down skin aging <\/p><p><strong>Step 3:<\/strong> <em>Replenishing Moisturizer<\/em> – gets your skin back to a strong, stress-free place<\/p><p><strong>Step 4:<\/strong><em>Toning & Firming Eye Cream<\/em> – look like you got more sleep than you did<\/p>",
+            "page": ""
+          }
+        },
+        "template--14695047561351__d54aeb90-1700-44f4-b4e9-d2b791b7a88e-1667853163f14480d1-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "HOW TO USE",
+            "icon": "question_mark",
+            "row_content": "<p><strong>Step 1: <\/strong>Wet your skin and apply <strong>Gentle Exfoliating Cleanser<\/strong> to your face and neck but watch out for the eyes. Rub it all over and focus on areas that are stressing you out like clogged pores, ingrowns and razor bumps. Rinse it off, towel dry and move it along.<\/p><p><strong>Step 2: <\/strong>Go in with 1-2 pumps of <strong>Brightening Serum<\/strong>, rubbing it in everywhere you cleansed and let it absorb until your skin feels dry again. No need to rinse this time.<\/p><p><strong>Step 3: <\/strong>Just like Step 2, go in with 1-2 pumps of <strong>Replenishing Moisturizer<\/strong> and rub it in. If your skin feels tight or dry and you<br\/>wanted to use some more, go for it.<\/p><p><strong>Step 4: <\/strong>Squeeze out a pea-sized amount of <strong>Toning & Firming Eye Cream<\/strong> onto the metal tip and sweep under the eye. Go around the entire eye area in a circular motion to include the cheek and brow bones and that’s it. Two circle-arounds is all you need.<\/p><p>Now step back and think about how easy that was for how good<br\/>your skin looks. We told you so.<\/p>",
+            "page": ""
+          }
+        },
+        "template--14695047561351__d54aeb90-1700-44f4-b4e9-d2b791b7a88e-1667853163f14480d1-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "GO-TO INGREDIENTS FOR GUYS",
+            "icon": "leaf",
+            "row_content": "<p>• <strong>Exfoliating Acids:<\/strong> clogged pores, ingrowns \/ razor burn<\/p><p>• <strong>Vitamin C:<\/strong> dark spots<\/p><p>• <strong>Shea Butter:<\/strong> flaky \/ rough skin<\/p><p>• <strong>Caffeine:<\/strong> Dark circles \/ eye bags<\/p>",
+            "page": ""
+          }
+        },
+        "template--14695047561351__d54aeb90-1700-44f4-b4e9-d2b791b7a88e-1667853163f14480d1-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "SUBSCRIPTION DETAILS",
+            "icon": "price_tag",
+            "row_content": "<p>TBD<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14695047561351__d54aeb90-1700-44f4-b4e9-d2b791b7a88e-1667853163f14480d1-0",
+        "template--14695047561351__d54aeb90-1700-44f4-b4e9-d2b791b7a88e-1667853163f14480d1-1",
+        "template--14695047561351__d54aeb90-1700-44f4-b4e9-d2b791b7a88e-1667853163f14480d1-2",
+        "template--14695047561351__d54aeb90-1700-44f4-b4e9-d2b791b7a88e-1667853163f14480d1-3"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "FAQs",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "38567274-9891-4aad-ab80-3fb5e44b374c": {
+      "type": "video",
+      "settings": {
+        "heading": "Video",
+        "heading_size": "h1",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "57909bf1-44dd-43b7-a0c7-7fbc14174f5b",
+    "87c4d1ec-7e67-4998-b581-c04f8549937a",
+    "291adb52-65a8-400a-b38a-bd31f4e474d7",
+    "a615284d-096e-4661-b242-a1dc9a59d25c",
+    "main",
+    "20f6efd2-2bb7-4982-bda9-8e1de58ae0f6",
+    "d54aeb90-1700-44f4-b4e9-d2b791b7a88e",
+    "38567274-9891-4aad-ab80-3fb5e44b374c"
+  ]
+}

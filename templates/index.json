@@ -1,0 +1,601 @@
+{
+  "sections": {
+    "1668796608f61eca9a": {
+      "type": "apps",
+      "blocks": {
+        "bc766ca3-fcbf-417b-8373-a33b5d5c5666": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": ""
+          }
+        }
+      },
+      "block_order": [
+        "bc766ca3-fcbf-417b-8373-a33b5d5c5666"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "DAILY SKINCARE SOLUTIONS. FORMULATED FOR MEN.",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "shopify:\/\/products\/the-regimen-test",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/221218-ELVYlab-3237.jpg",
+        "image_overlay_opacity": 20,
+        "image_height": "medium",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "1676384414c31477fc": {
+      "type": "apps",
+      "blocks": {
+        "a75f0b13-04d0-4499-9cfd-29b3ca1aea60": {
+          "type": "shopify:\/\/apps\/bee-logo-showcase-banner-logos\/blocks\/app-block\/aecc13ad-a68a-4275-a50d-950c5b442628",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "a75f0b13-04d0-4499-9cfd-29b3ca1aea60"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "54a57a27-e658-475a-a70f-621215904a5d": {
+      "type": "rich-text",
+      "blocks": {
+        "a5af9b52-6642-4a76-b9d9-94f97e9ef540": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>EASY SKINCARE FOR THE BUSY MAN.<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--14704432152711__54a57a27-e658-475a-a70f-621215904a5d-1669148714495d7a6d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>It’s simple - men have different skin and different needs. ELVY Lab Skincare is formulated with every guy in mind.<br\/><br\/>Finally, a straightforward, follow-the-numbers approach that won’t leave you guessing or have you at the sink for hours.<\/p>"
+          }
+        },
+        "22afdaf4-e8bd-4b25-830c-9411ae4a498e": {
+          "type": "button",
+          "settings": {
+            "button_label": "LEARN MORE",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "a5af9b52-6642-4a76-b9d9-94f97e9ef540",
+        "template--14704432152711__54a57a27-e658-475a-a70f-621215904a5d-1669148714495d7a6d-1",
+        "22afdaf4-e8bd-4b25-830c-9411ae4a498e"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "4ad5306a-fb08-4f4b-821c-f98d9acf1f07": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "template--14695036158087__4ad5306a-fb08-4f4b-821c-f98d9acf1f07-1668454736d3602597-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "LEARN MORE",
+            "button_link": "shopify:\/\/pages\/the-regimen",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "c7dc0035-01c0-4aa6-b5b8-5748ac8ac968": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>EVERY GUY. EVERY DAY. NO CONFUSION.<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "1b4a4dfc-d83e-4ad9-a709-3a53d5044237": {
+          "type": "text",
+          "settings": {
+            "text": "<p>It’s simple - men have different skin and different needs. ELVY Lab Skincare is formulated with every guy in mind.<\/p>"
+          }
+        },
+        "1ae8ef62-dab0-46eb-a412-d7e6324fa4e5": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Finally, a straightforward, follow-the-numbers approach that won’t leave you guessing or have you at the sink for 3 hours.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14695036158087__4ad5306a-fb08-4f4b-821c-f98d9acf1f07-1668454736d3602597-2",
+        "c7dc0035-01c0-4aa6-b5b8-5748ac8ac968",
+        "1b4a4dfc-d83e-4ad9-a709-3a53d5044237",
+        "1ae8ef62-dab0-46eb-a412-d7e6324fa4e5"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "bb86d184-bf21-4346-86bd-5b0d5405f563": {
+      "type": "image-banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/bannericontest_eb37568e-6c13-457b-be5b-ba73c47084e7.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "4cae0a7d-f968-4289-b85e-02fe47c5b318": {
+      "type": "featured-product",
+      "blocks": {
+        "template--14704432152711__4cae0a7d-f968-4289-b85e-02fe47c5b318-1668715361323a89eb-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--14704432152711__4cae0a7d-f968-4289-b85e-02fe47c5b318-1668715361323a89eb-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "b79b1d11-0939-47b9-97c8-5ef88d0ecef9": {
+          "type": "text",
+          "settings": {
+            "text": "Includes all the singles with the leather toiletry bag.",
+            "text_style": "subtitle"
+          }
+        },
+        "template--14704432152711__4cae0a7d-f968-4289-b85e-02fe47c5b318-1668715361323a89eb-2": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--14704432152711__4cae0a7d-f968-4289-b85e-02fe47c5b318-1668715361323a89eb-3": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--14704432152711__4cae0a7d-f968-4289-b85e-02fe47c5b318-1668715361323a89eb-4": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--14704432152711__4cae0a7d-f968-4289-b85e-02fe47c5b318-1668715361323a89eb-5": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "06888871-e593-4afc-9e15-9cb81b454ceb": {
+          "type": "text",
+          "settings": {
+            "text": "View full details for subscriptions & discounts",
+            "text_style": "body"
+          }
+        },
+        "template--14704432152711__4cae0a7d-f968-4289-b85e-02fe47c5b318-1668715361323a89eb-6": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--14704432152711__4cae0a7d-f968-4289-b85e-02fe47c5b318-1668715361323a89eb-0",
+        "template--14704432152711__4cae0a7d-f968-4289-b85e-02fe47c5b318-1668715361323a89eb-1",
+        "b79b1d11-0939-47b9-97c8-5ef88d0ecef9",
+        "template--14704432152711__4cae0a7d-f968-4289-b85e-02fe47c5b318-1668715361323a89eb-2",
+        "template--14704432152711__4cae0a7d-f968-4289-b85e-02fe47c5b318-1668715361323a89eb-3",
+        "template--14704432152711__4cae0a7d-f968-4289-b85e-02fe47c5b318-1668715361323a89eb-4",
+        "template--14704432152711__4cae0a7d-f968-4289-b85e-02fe47c5b318-1668715361323a89eb-5",
+        "06888871-e593-4afc-9e15-9cb81b454ceb",
+        "template--14704432152711__4cae0a7d-f968-4289-b85e-02fe47c5b318-1668715361323a89eb-6"
+      ],
+      "settings": {
+        "product": "the-regimen-test",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "334e8700-c5c3-44fc-bcf0-aead5cddc370": {
+      "type": "slideshow",
+      "disabled": true,
+      "blocks": {
+        "template--14704432152711__334e8700-c5c3-44fc-bcf0-aead5cddc370-1668715410fc4f2c19-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ELVYModel1.jpg",
+            "heading": "STEP 1",
+            "heading_size": "h1",
+            "subheading": "Gentle Exfoliating Cleanser – get rid of the gunk while smoothing roughness",
+            "button_label": "LEARN MORE",
+            "link": "shopify:\/\/products\/the-regimen-test",
+            "button_style_secondary": true,
+            "box_align": "bottom-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 40,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "a27e2baa-3355-4180-a76f-b174b89195a4": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ELVYModel9.jpg",
+            "heading": "STEP 2",
+            "heading_size": "h1",
+            "subheading": "Brightening Serum – let go of the discoloration and help slow-down skin aging",
+            "button_label": "LEARN MORE",
+            "link": "shopify:\/\/products\/the-regimen-test",
+            "button_style_secondary": true,
+            "box_align": "bottom-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 40,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "7a34ade2-2fdf-4647-acd2-563db6e03ac0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ELVYModel4.jpg",
+            "heading": "STEP 3",
+            "heading_size": "h1",
+            "subheading": "Replenishing Moisturizer – gets your skin back to a strong, stress-free place",
+            "button_label": "LEARN MORE",
+            "link": "shopify:\/\/products\/the-regimen-test",
+            "button_style_secondary": true,
+            "box_align": "bottom-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 40,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--14704432152711__334e8700-c5c3-44fc-bcf0-aead5cddc370-1668715410fc4f2c19-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ELVYModel2.jpg",
+            "heading": "STEP 4",
+            "heading_size": "h1",
+            "subheading": "Toning & Firming Eye Cream – look like you got more sleep than you did",
+            "button_label": "LEARN MORE",
+            "link": "shopify:\/\/products\/the-regimen-test",
+            "button_style_secondary": true,
+            "box_align": "bottom-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 40,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14704432152711__334e8700-c5c3-44fc-bcf0-aead5cddc370-1668715410fc4f2c19-1",
+        "a27e2baa-3355-4180-a76f-b174b89195a4",
+        "7a34ade2-2fdf-4647-acd2-563db6e03ac0",
+        "template--14704432152711__334e8700-c5c3-44fc-bcf0-aead5cddc370-1668715410fc4f2c19-0"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 3,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "rich_text": {
+      "type": "rich-text",
+      "blocks": {
+        "1944f946-d46c-409e-944c-bd985dce6ade": {
+          "type": "button",
+          "settings": {
+            "button_label": "Write a review",
+            "button_link": "https:\/\/elvylab.com\/products\/the-regimen-test\/#reviews",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1944f946-d46c-409e-944c-bd985dce6ade"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "THE SINGLES",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "frontpage",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "5e3fc30d-74bb-4cb6-8386-b209349e27b6": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "HOW TO USE",
+        "heading_size": "h1",
+        "cover_image": "shopify:\/\/shop_images\/ELVYVideoCover.png",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=brL9YmiSyzw",
+        "description": "Video tutorial for the ELVY Lab Regimen",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "805f5ecc-f04b-446d-b1aa-40839b54f78d": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "template--14695036158087__805f5ecc-f04b-446d-b1aa-40839b54f78d-1667852655b57d72e0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE REGIMEN",
+            "heading_size": "h1"
+          }
+        },
+        "template--14695036158087__805f5ecc-f04b-446d-b1aa-40839b54f78d-1667852655b57d72e0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>4-step daily skincare for men<\/p><p><\/p><p><strong>$125 ($xx value)<\/strong><\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--14695036158087__805f5ecc-f04b-446d-b1aa-40839b54f78d-1667852655b57d72e0-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "SUBSCRIBE & SAVE",
+            "button_link": "shopify:\/\/pages\/the-regimen"
+          }
+        }
+      },
+      "block_order": [
+        "template--14695036158087__805f5ecc-f04b-446d-b1aa-40839b54f78d-1667852655b57d72e0-0",
+        "template--14695036158087__805f5ecc-f04b-446d-b1aa-40839b54f78d-1667852655b57d72e0-1",
+        "template--14695036158087__805f5ecc-f04b-446d-b1aa-40839b54f78d-1667852655b57d72e0-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ELVYKit1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "435c9779-f0bb-4dff-b747-938519de9908": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "template--14695036158087__435c9779-f0bb-4dff-b747-938519de9908-1668451390169c2a57-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>FEELING SOCIAL?<\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--14695036158087__435c9779-f0bb-4dff-b747-938519de9908-1668451390169c2a57-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "166845135955232414": {
+      "type": "apps",
+      "disabled": true,
+      "blocks": {
+        "615d14da-290a-44a2-8912-c4c576909979": {
+          "type": "shopify:\/\/apps\/tagembed-social-media-review\/blocks\/app-block\/16930ea9-fb6e-46ac-90fd-526ff0431478",
+          "settings": {
+            "tagembed_widget": "73246",
+            "tagembed_widget_position": "center",
+            "tagembed_widget_height": "500",
+            "tagembed_widget_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "615d14da-290a-44a2-8912-c4c576909979"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "video": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "3462105d-ef79-403f-9161-6aa80e641812": {
+      "type": "newsletter",
+      "blocks": {
+        "template--14695036158087__3462105d-ef79-403f-9161-6aa80e641812-16680270515539cc3f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "NEWSLETTER",
+            "heading_size": "h2"
+          }
+        },
+        "template--14695036158087__3462105d-ef79-403f-9161-6aa80e641812-16680270515539cc3f-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Subscribe to our newsletter to receive 15% off your first order and skincare tips just for men.<\/p>"
+          }
+        },
+        "template--14695036158087__3462105d-ef79-403f-9161-6aa80e641812-16680270515539cc3f-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--14695036158087__3462105d-ef79-403f-9161-6aa80e641812-16680270515539cc3f-0",
+        "template--14695036158087__3462105d-ef79-403f-9161-6aa80e641812-16680270515539cc3f-1",
+        "template--14695036158087__3462105d-ef79-403f-9161-6aa80e641812-16680270515539cc3f-2"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "1668796608f61eca9a",
+    "image_banner",
+    "1676384414c31477fc",
+    "54a57a27-e658-475a-a70f-621215904a5d",
+    "4ad5306a-fb08-4f4b-821c-f98d9acf1f07",
+    "bb86d184-bf21-4346-86bd-5b0d5405f563",
+    "4cae0a7d-f968-4289-b85e-02fe47c5b318",
+    "334e8700-c5c3-44fc-bcf0-aead5cddc370",
+    "rich_text",
+    "featured_collection",
+    "5e3fc30d-74bb-4cb6-8386-b209349e27b6",
+    "805f5ecc-f04b-446d-b1aa-40839b54f78d",
+    "435c9779-f0bb-4dff-b747-938519de9908",
+    "166845135955232414",
+    "video",
+    "3462105d-ef79-403f-9161-6aa80e641812"
+  ]
+}

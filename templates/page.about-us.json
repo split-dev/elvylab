@@ -1,0 +1,294 @@
+{
+  "sections": {
+    "e383f4da-b66a-4a69-af13-a2e43335b8af": {
+      "type": "image-banner",
+      "blocks": {
+        "template--14704432218247__e383f4da-b66a-4a69-af13-a2e43335b8af-1668794963130c9c48-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "ABOUT US",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--14704432218247__e383f4da-b66a-4a69-af13-a2e43335b8af-1668794963130c9c48-0"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ELVYAbout.jpg",
+        "image_overlay_opacity": 40,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "ed750f62-7106-4063-ba6f-5ced802e42d9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14704432218247__ed750f62-7106-4063-ba6f-5ced802e42d9-1668794963077bf3ad-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Men’s skin is anatomically different, so why settle for something that doesn’t cater specifically to it?<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--14704432218247__ed750f62-7106-4063-ba6f-5ced802e42d9-1668794963077bf3ad-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Let’s be clear:<\/strong> there’s no shortage of options in the skincare industry nor lack of men who want to look and feel good. The real issue? Confusing marketing tactics and product offerings that aren’t speaking directly to their needs.<\/p><p>We’re here to change that through a simple, clinically-effective routine that caters to men’s unique skin needs. No endless amount of steps, no questioning of “is it really unisex?” and no uncertainty surrounding results. Just great products for men who want great skin every day.<\/p><p><strong>Yes, it’s that simple.<\/strong><\/p>"
+          }
+        },
+        "template--14704432218247__ed750f62-7106-4063-ba6f-5ced802e42d9-1668794963077bf3ad-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "LEARN MORE",
+            "button_link": "shopify:\/\/products\/the-regimen-test",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14704432218247__ed750f62-7106-4063-ba6f-5ced802e42d9-1668794963077bf3ad-0",
+        "template--14704432218247__ed750f62-7106-4063-ba6f-5ced802e42d9-1668794963077bf3ad-1",
+        "template--14704432218247__ed750f62-7106-4063-ba6f-5ced802e42d9-1668794963077bf3ad-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 32
+      }
+    },
+    "3d23b9a9-723a-4d86-a305-02bf2420de51": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14696160690311__3d23b9a9-723a-4d86-a305-02bf2420de51-1667947256d92f0af7-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ELVYModel3.jpg",
+            "title": "CLINICALLY EFFECTIVE",
+            "text": "<p>ELVY Lab products have been developed by scientists and tested by dermatologists. A meticulously designed regimen you can trust.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14696160690311__3d23b9a9-723a-4d86-a305-02bf2420de51-1667947256d92f0af7-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/52-elvyskincare_r1_4stepsGIF_3117.gif",
+            "title": "SIMPLE REGIMEN",
+            "text": "<p>We’ve eliminated the confusion + the endless steps. Our simple, yet effective regimen is easy to use with all the benefits.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14696160690311__3d23b9a9-723a-4d86-a305-02bf2420de51-1667947256d92f0af7-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ELVYModel7.jpg",
+            "title": "FORMULATED FOR MEN",
+            "text": "<p>It’s simple- men have different skin and different needs. ELVY Lab Skincare is formulated with every guy in mind.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14696160690311__3d23b9a9-723a-4d86-a305-02bf2420de51-1667947256d92f0af7-0",
+        "template--14696160690311__3d23b9a9-723a-4d86-a305-02bf2420de51-1667947256d92f0af7-1",
+        "template--14696160690311__3d23b9a9-723a-4d86-a305-02bf2420de51-1667947256d92f0af7-2"
+      ],
+      "settings": {
+        "title": "THE EXPERIENCE",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c99007a7-a2ff-4fdd-ac09-19a3609d9e95": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14704432218247__c99007a7-a2ff-4fdd-ac09-19a3609d9e95-166881191538026e5d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>FEELING SOCIAL?<\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--14704432218247__c99007a7-a2ff-4fdd-ac09-19a3609d9e95-166881191538026e5d-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "6b6bfaf4-f371-4995-a7b2-823fc2c93634": {
+      "type": "featured-product",
+      "disabled": true,
+      "blocks": {
+        "template--14696160690311__6b6bfaf4-f371-4995-a7b2-823fc2c93634-16679472520dd927e1-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--14696160690311__6b6bfaf4-f371-4995-a7b2-823fc2c93634-16679472520dd927e1-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--14696160690311__6b6bfaf4-f371-4995-a7b2-823fc2c93634-16679472520dd927e1-2": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--14696160690311__6b6bfaf4-f371-4995-a7b2-823fc2c93634-16679472520dd927e1-3": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--14696160690311__6b6bfaf4-f371-4995-a7b2-823fc2c93634-16679472520dd927e1-4": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--14696160690311__6b6bfaf4-f371-4995-a7b2-823fc2c93634-16679472520dd927e1-5": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "template--14696160690311__6b6bfaf4-f371-4995-a7b2-823fc2c93634-16679472520dd927e1-6": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--14696160690311__6b6bfaf4-f371-4995-a7b2-823fc2c93634-16679472520dd927e1-0",
+        "template--14696160690311__6b6bfaf4-f371-4995-a7b2-823fc2c93634-16679472520dd927e1-1",
+        "template--14696160690311__6b6bfaf4-f371-4995-a7b2-823fc2c93634-16679472520dd927e1-2",
+        "template--14696160690311__6b6bfaf4-f371-4995-a7b2-823fc2c93634-16679472520dd927e1-3",
+        "template--14696160690311__6b6bfaf4-f371-4995-a7b2-823fc2c93634-16679472520dd927e1-4",
+        "template--14696160690311__6b6bfaf4-f371-4995-a7b2-823fc2c93634-16679472520dd927e1-5",
+        "template--14696160690311__6b6bfaf4-f371-4995-a7b2-823fc2c93634-16679472520dd927e1-6"
+      ],
+      "settings": {
+        "product": "the-regimen-test",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "166881189684a20a8e": {
+      "type": "apps",
+      "blocks": {
+        "30b2f2b5-48fb-4cf6-a64e-9898a9a26693": {
+          "type": "shopify:\/\/apps\/tagembed-social-media-review\/blocks\/app-block\/16930ea9-fb6e-46ac-90fd-526ff0431478",
+          "settings": {
+            "tagembed_widget": "73246",
+            "tagembed_widget_position": "center",
+            "tagembed_widget_height": "500",
+            "tagembed_widget_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "30b2f2b5-48fb-4cf6-a64e-9898a9a26693"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "6671e25b-10eb-4ced-a54b-c7d84039c4c6": {
+      "type": "newsletter",
+      "blocks": {
+        "template--14704432218247__6671e25b-10eb-4ced-a54b-c7d84039c4c6-166872140194c2298a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "NEWSLETTER",
+            "heading_size": "h2"
+          }
+        },
+        "template--14704432218247__6671e25b-10eb-4ced-a54b-c7d84039c4c6-166872140194c2298a-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Subscribe to our newsletter to receive 15% off your first order and skincare tips just for men.<\/p>"
+          }
+        },
+        "template--14704432218247__6671e25b-10eb-4ced-a54b-c7d84039c4c6-166872140194c2298a-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--14704432218247__6671e25b-10eb-4ced-a54b-c7d84039c4c6-166872140194c2298a-0",
+        "template--14704432218247__6671e25b-10eb-4ced-a54b-c7d84039c4c6-166872140194c2298a-1",
+        "template--14704432218247__6671e25b-10eb-4ced-a54b-c7d84039c4c6-166872140194c2298a-2"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "e383f4da-b66a-4a69-af13-a2e43335b8af",
+    "main",
+    "ed750f62-7106-4063-ba6f-5ced802e42d9",
+    "3d23b9a9-723a-4d86-a305-02bf2420de51",
+    "c99007a7-a2ff-4fdd-ac09-19a3609d9e95",
+    "6b6bfaf4-f371-4995-a7b2-823fc2c93634",
+    "166881189684a20a8e",
+    "6671e25b-10eb-4ced-a54b-c7d84039c4c6"
+  ]
+}

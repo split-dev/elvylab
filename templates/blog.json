@@ -1,0 +1,50 @@
+{
+  "sections": {
+    "615e02fe-a8bc-4ade-ac4e-47230d46b225": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14695035797639__615e02fe-a8bc-4ade-ac4e-47230d46b225-16680274203e765609-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>The Blog<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--14695035797639__615e02fe-a8bc-4ade-ac4e-47230d46b225-16680274203e765609-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>[Insert copy here]<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14695035797639__615e02fe-a8bc-4ade-ac4e-47230d46b225-16680274203e765609-0",
+        "template--14695035797639__615e02fe-a8bc-4ade-ac4e-47230d46b225-16680274203e765609-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "layout": "grid",
+        "show_image": true,
+        "image_height": "small",
+        "show_date": true,
+        "show_author": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "615e02fe-a8bc-4ade-ac4e-47230d46b225",
+    "main"
+  ]
+}

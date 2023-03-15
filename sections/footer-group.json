@@ -1,0 +1,72 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "1af77c7d-5a7f-4363-a118-377c58afe702": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ELVY_LAB_LOGO_FINAL_WHITE.png",
+            "image_width": 200,
+            "alignment": "center"
+          }
+        },
+        "footer-1": {
+          "type": "link_list",
+          "settings": {
+            "heading": "SHOP",
+            "menu": "footer"
+          }
+        },
+        "7f84ccca-a83c-43af-a72e-19db07eb345f": {
+          "type": "link_list",
+          "settings": {
+            "heading": "SUPPORT",
+            "menu": "support"
+          }
+        },
+        "footer-0": {
+          "type": "link_list",
+          "settings": {
+            "heading": "LEARN",
+            "menu": "learn"
+          }
+        },
+        "footer-2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "heading": "NEWSLETTER",
+            "subtext": "<p>Subscribe to our newsletter to receive 15% off your first order and skincare tips just for men.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1af77c7d-5a7f-4363-a118-377c58afe702",
+        "footer-1",
+        "7f84ccca-a83c-43af-a72e-19db07eb345f",
+        "footer-0",
+        "footer-2"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "newsletter_enable": false,
+        "newsletter_heading": "NEWSLETTER",
+        "enable_follow_on_shop": false,
+        "show_social": false,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": false,
+        "show_policy": false,
+        "margin_top": 0,
+        "padding_top": 20,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

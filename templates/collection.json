@@ -1,0 +1,114 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "78cc0bb9-8ece-432a-9166-3637f851df87": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14704431857799__78cc0bb9-8ece-432a-9166-3637f851df87-16688115976296d5d6-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>FEELING SOCIAL?<\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--14704431857799__78cc0bb9-8ece-432a-9166-3637f851df87-16688115976296d5d6-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "16688115383525219a": {
+      "type": "apps",
+      "blocks": {
+        "2dbe33d5-3050-4f43-b980-937061520bdd": {
+          "type": "shopify:\/\/apps\/tagembed-social-media-review\/blocks\/app-block\/16930ea9-fb6e-46ac-90fd-526ff0431478",
+          "settings": {
+            "tagembed_widget": "73246",
+            "tagembed_widget_position": "center",
+            "tagembed_widget_height": "500",
+            "tagembed_widget_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "2dbe33d5-3050-4f43-b980-937061520bdd"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "b7eeb1f6-774b-4c4b-a873-ba4b039e68ef": {
+      "type": "newsletter",
+      "blocks": {
+        "template--14704431857799__b7eeb1f6-774b-4c4b-a873-ba4b039e68ef-16687214910d383d46-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "NEWSLETTER",
+            "heading_size": "h2"
+          }
+        },
+        "template--14704431857799__b7eeb1f6-774b-4c4b-a873-ba4b039e68ef-16687214910d383d46-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Subscribe to our newsletter to receive 15% off your first order and skincare tips just for men.<\/p>"
+          }
+        },
+        "template--14704431857799__b7eeb1f6-774b-4c4b-a873-ba4b039e68ef-16687214910d383d46-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--14704431857799__b7eeb1f6-774b-4c4b-a873-ba4b039e68ef-16687214910d383d46-0",
+        "template--14704431857799__b7eeb1f6-774b-4c4b-a873-ba4b039e68ef-16687214910d383d46-1",
+        "template--14704431857799__b7eeb1f6-774b-4c4b-a873-ba4b039e68ef-16687214910d383d46-2"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "78cc0bb9-8ece-432a-9166-3637f851df87",
+    "16688115383525219a",
+    "b7eeb1f6-774b-4c4b-a873-ba4b039e68ef"
+  ]
+}
