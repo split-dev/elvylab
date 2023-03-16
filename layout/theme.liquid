@@ -26,6 +26,7 @@
     <meta name="theme-color" content="">
     <link rel="canonical" href="{{ canonical_url }}">
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
 
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
@@ -51,6 +52,9 @@
     <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
+
+    <script src="{{ 'swiper-min.js' | asset_url }}"></script>
+
     {{ content_for_header }}
 
     {%- liquid
@@ -239,6 +243,8 @@
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
 
+    <link rel="stylesheet" href="{{ 'main.min.css' | asset_url }}">
+
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
     {%- endunless -%}
@@ -268,9 +274,12 @@
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
   {% capture boostersnippet %}{% include "booster-apps-common" %}{% endcapture %}{% unless boostersnippet contains "Liquid error" %}{{ boostersnippet }}{% endunless %}
+
+    <script src="{{ 'main.js' | asset_url }}" defer="defer"></script>
+
 </head>
 
-  <body class="gradient">
+  <body class="gradient template template--{{ template.name }} template--{{- template.suffix | default: 'default' -}}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
     </a>

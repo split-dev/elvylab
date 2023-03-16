@@ -1,0 +1,123 @@
+{%- style -%}
+
+  .discount-inner__first {
+    background-image: url('{{ section.settings.discount_img_first | img_url: 'master' }}');
+    min-height: 575px;
+  }
+  .discount-inner__second {
+    background-image: url('{{ section.settings.discount_img_second | img_url: 'master' }}');
+    min-height: 575px;
+  }
+  @media (max-width: 425px) {
+    .discount-inner__block {
+      background-size: 100%;
+    }
+    .discount-inner__first {
+      min-height: 330px;
+    }
+    .discount-inner__second {
+      min-height: 387px;
+    }
+  }
+
+  .discount__main-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+{%- endstyle -%}
+
+<div class="discount">
+  <div class="discount__bar discount__main-{{ section.id }}-padding">
+    {% if section.settings.discount_main_bar != blank %}
+      <div class="discount__bar-text">
+        <p>{{ section.settings.discount_main_bar }}</p>
+      </div>
+    {% endif %}
+  
+    <div class="discount__main page-width">
+      <div class="discount__main-wrapper discount-inner">
+        {% if section.settings.discount_img_first != blank %}
+          <div class="discount-inner__first discount-inner__block">
+            {% if section.settings.discount_star %}
+              <div class="discount-inner__star">
+                {% render 'icon-star' %}
+              </div>
+            {% endif %}
+            {% if section.settings.discount_gift %}
+            <div class="discount-inner__gift">
+              {% render 'icon-gift' %}
+            </div>
+          {% endif %}
+          </div>
+        {% endif %}
+        {% if section.settings.discount_img_second != blank %}
+          <div class="discount-inner__second discount-inner__block">
+            
+          </div>
+      {% endif %}
+      </div>
+    </div>
+  
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Discount Main",
+  "settings": [
+    {
+      "type": "text",
+      "id": "discount_main_bar",
+      "label": "Discount main bar title",
+      "default": "LIMITED TIME OFFER! FREE GIFT WITH ESSENTIALS KIT PURCHASE + FREE SHIPPING"
+    },
+    {
+      "type": "image_picker",
+      "id": "discount_img_first",
+      "label": "Discount main first image"
+    },
+    {
+      "type": "checkbox",
+      "id": "discount_gift",
+      "label": "Show gift discount",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "discount_star",
+      "label": "Show star discount",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "discount_img_second",
+      "label": "Discount main second image"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 10
+    }
+  ],
+	"presets": [
+    {
+      "name": "Discount main"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,203 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "a975da96-2c7d-4049-ba51-9b296b73d849": {
+      "type": "discount-main",
+      "settings": {
+        "discount_main_bar": "LIMITED TIME OFFER! FREE GIFT WITH ESSENTIALS KIT PURCHASE + FREE SHIPPING",
+        "discount_img_first": "shopify:\/\/shop_images\/discount-main-img-1.png",
+        "discount_gift": true,
+        "discount_star": true,
+        "discount_img_second": "shopify:\/\/shop_images\/discount-main-img-2.png",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "abd02e49-69a8-494b-878a-7e2c37f4d135": {
+      "type": "discount-offer",
+      "blocks": {
+        "f96ef792-4c45-43d3-bf40-76054436b145": {
+          "type": "review",
+          "settings": {
+            "discount_icons_image": "shopify:\/\/shop_images\/icon_man.png",
+            "discount_icons_text": "Formulated for Men"
+          }
+        },
+        "09174d7d-a115-456c-a419-fa19c02132c0": {
+          "type": "review",
+          "settings": {
+            "discount_icons_image": "shopify:\/\/shop_images\/icon_clean.png",
+            "discount_icons_text": "Clean"
+          }
+        },
+        "19aaf35f-fedc-407e-8eb8-899abca13b95": {
+          "type": "review",
+          "settings": {
+            "discount_icons_image": "shopify:\/\/shop_images\/icon_search.png",
+            "discount_icons_text": "Clinically & Dermatologist Tested"
+          }
+        },
+        "f4a037f4-5677-4ca6-929d-0f5f118c07ce": {
+          "type": "review",
+          "settings": {
+            "discount_icons_image": "shopify:\/\/shop_images\/icon_herb.png",
+            "discount_icons_text": "Vegan"
+          }
+        },
+        "0ee6381a-1d45-4c36-9a09-4126aba7b184": {
+          "type": "review",
+          "settings": {
+            "discount_icons_image": "shopify:\/\/shop_images\/icon_cruelty_free.png",
+            "discount_icons_text": "Cruelty-Free"
+          }
+        }
+      },
+      "block_order": [
+        "f96ef792-4c45-43d3-bf40-76054436b145",
+        "09174d7d-a115-456c-a419-fa19c02132c0",
+        "19aaf35f-fedc-407e-8eb8-899abca13b95",
+        "f4a037f4-5677-4ca6-929d-0f5f118c07ce",
+        "0ee6381a-1d45-4c36-9a09-4126aba7b184"
+      ],
+      "settings": {
+        "discount_background": "#031226",
+        "offer_title": "AN EXLUSIVE OFFER",
+        "offer_percent": "30% OFF",
+        "offer_subtitle": "Inductory Essentials Kit",
+        "offer_button": "SHOP NOW",
+        "offer_button_url": "shopify:\/\/collections\/all",
+        "offer_gift_text": "FREE GIFT+ FREE SHIPPTING",
+        "discount_offer_img": "shopify:\/\/shop_images\/photo_model.png",
+        "discount_why_title": "WHY ELVY LAB?",
+        "discount_why_subtitle": "Fact: Men`s skin anatomically different and requires products and ingredients that target what they face most:",
+        "discount_list_item_1": "Dryness",
+        "discount_list_item_2": "Excess skin texture",
+        "discount_list_item_3": "Rough skin texture",
+        "discount_list_item_4": "Post-shave issues ike razor bumps and ingrown hairs...",
+        "discount_why_text": "ELVY Lab sees you and hears you, creating a simple, clinically- effective regimen for made exclusively for guys who want to look good without compromise or confusion. Each of our formulas is formulated by scientists and tested by dermatologists so all you have to worry about is enjoying the results.",
+        "discount_icons_title": "Life may be hard, but skincare doesn`t have to be.",
+        "padding_top": 24,
+        "padding_bottom": 60
+      }
+    },
+    "dc6393fd-1488-45b1-a0ad-d46928e4b66f": {
+      "type": "discount-after-before",
+      "blocks": {
+        "c2af3d1d-1f85-419b-a0ed-62effaef5b79": {
+          "type": "advantage",
+          "settings": {
+            "simile_percent": "94%",
+            "simile_percent_text": "saw visibly fewer wrinkes"
+          }
+        },
+        "d9751315-3453-4c82-81ae-ad4d11a51481": {
+          "type": "advantage",
+          "settings": {
+            "simile_percent": "91%",
+            "simile_percent_text": "saw noticeable increase in elasticity and tightness"
+          }
+        },
+        "d54d4d3d-7c7c-436d-979d-44dde3130ddc": {
+          "type": "advantage",
+          "settings": {
+            "simile_percent": "87%",
+            "simile_percent_text": "experienced reduction in sun\/age spots"
+          }
+        },
+        "f94f6dba-0fe5-43fb-9f70-208c9d66ad6a": {
+          "type": "advantage",
+          "settings": {
+            "simile_percent": "96%",
+            "simile_percent_text": "experienced improvement in skin radiance and hydration"
+          }
+        }
+      },
+      "block_order": [
+        "c2af3d1d-1f85-419b-a0ed-62effaef5b79",
+        "d9751315-3453-4c82-81ae-ad4d11a51481",
+        "d54d4d3d-7c7c-436d-979d-44dde3130ddc",
+        "f94f6dba-0fe5-43fb-9f70-208c9d66ad6a"
+      ],
+      "settings": {
+        "simile_content_title": "REAL MEN REAL RESULTS",
+        "simile_bottom_text": "Based on an 8-week study using the ELVY Lab skincare regimen",
+        "simile_image_before": "shopify:\/\/shop_images\/BEFORE.png",
+        "simile_text_before": "Before",
+        "simile_image_after": "shopify:\/\/shop_images\/AFTER.png",
+        "simile_text_after": "After",
+        "simile_button_text": "Shop now",
+        "simile_button_url": "shopify:\/\/collections\/all",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "ca4d264d-9d89-46a4-a72a-d00f9f464356": {
+      "type": "discount-brands",
+      "blocks": {
+        "ac21bd9b-05ea-4557-bbb5-3a2fc7714b78": {
+          "type": "text",
+          "settings": {
+            "brands_logo": "shopify:\/\/shop_images\/image_2.png"
+          }
+        },
+        "161b7a47-3de5-46ea-976e-8c90695d922a": {
+          "type": "text",
+          "settings": {
+            "brands_logo": "shopify:\/\/shop_images\/image_4.png"
+          }
+        },
+        "9e82c8b0-380e-429c-b80a-1f4eb7643964": {
+          "type": "text",
+          "settings": {
+            "brands_logo": "shopify:\/\/shop_images\/image_3.png"
+          }
+        },
+        "f64753a7-cd08-496e-beaa-238955076ad5": {
+          "type": "text",
+          "settings": {
+            "brands_logo": "shopify:\/\/shop_images\/image_1.png"
+          }
+        },
+        "f031c951-045e-4353-beec-07c298d8817e": {
+          "type": "text",
+          "settings": {
+            "brands_logo": "shopify:\/\/shop_images\/image_5.png"
+          }
+        },
+        "6b260eb5-7e7a-4e33-837c-b12fffab4de7": {
+          "type": "text",
+          "settings": {
+            "brands_logo": "shopify:\/\/shop_images\/image_8.png"
+          }
+        }
+      },
+      "block_order": [
+        "ac21bd9b-05ea-4557-bbb5-3a2fc7714b78",
+        "161b7a47-3de5-46ea-976e-8c90695d922a",
+        "9e82c8b0-380e-429c-b80a-1f4eb7643964",
+        "f64753a7-cd08-496e-beaa-238955076ad5",
+        "f031c951-045e-4353-beec-07c298d8817e",
+        "6b260eb5-7e7a-4e33-837c-b12fffab4de7"
+      ],
+      "settings": {
+        "brands_title": "AS SEEN IN",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "a975da96-2c7d-4049-ba51-9b296b73d849",
+    "abd02e49-69a8-494b-878a-7e2c37f4d135",
+    "dc6393fd-1488-45b1-a0ad-d46928e4b66f",
+    "ca4d264d-9d89-46a4-a72a-d00f9f464356"
+  ]
+}

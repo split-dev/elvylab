@@ -1,0 +1,223 @@
+{%- style -%}
+ 
+  .discount__offer {
+    background-color: {{ section.settings.discount_background }};
+  } 
+  .discount__offer-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+{%- endstyle -%}
+
+<div class="discount__offer discount__offer-{{ section.id }}-padding">
+  <div class="discount__offer-text">
+    {% if section.settings.offer_title %}
+      <span class="discount__offer-title">{{ section.settings.offer_title }}</span>
+    {% endif %}
+    {% if section.settings.offer_percent %}
+      <h1 class="discount__offer-percent">{{ section.settings.offer_percent }}</h1>
+    {% endif %}
+    {% if section.settings.offer_subtitle %}
+      <p class="discount__offer-subtitle">{{ section.settings.offer_subtitle }}</p>
+    {% endif %}
+    {% if section.settings.offer_button %}
+      <a class="discount__offer-button" href="{{ section.settings.offer_button_url }}">{{ section.settings.offer_button }}</a>
+    {% endif %}
+    {% if section.settings.offer_gift_text %}
+      <p class="discount__offer-gift">{{ section.settings.offer_gift_text }}</p>
+    {% endif %}
+  </div>
+
+  <div class="discount__content">
+    <div class="page-width">
+      <div class="discount__offer-wrapper">
+        {% if section.settings.discount_offer_img != blank %}
+          <div class="discount__offer-img">
+            <img src="{{ section.settings.discount_offer_img | image_url: width: 505 }}">
+          </div>
+        {% endif %}
+        {% if section.settings.discount_why_title != blank %}
+          <div class="discount__offer-info offer__info">
+            <h2 class="offer__info-title">{{ section.settings.discount_why_title }}</h2>
+            <p class="offer__info-text">{{ section.settings.discount_why_subtitle }}</p>
+            <ul class="offer__info-list">
+              {% if section.settings.discount_list_item_1 != blank %}
+                <li class="offer__info-item">{{ section.settings.discount_list_item_1 }}</li>
+              {% endif %}
+              {% if section.settings.discount_list_item_2 != blank %}
+                <li class="offer__info-item">{{ section.settings.discount_list_item_2 }}</li>
+              {% endif %}
+              {% if section.settings.discount_list_item_3 != blank %}
+                <li class="offer__info-item">{{ section.settings.discount_list_item_3 }}</li>
+              {% endif %}
+              {% if section.settings.discount_list_item_4 != blank %}
+                <li class="offer__info-item">{{ section.settings.discount_list_item_4 }}</li>
+              {% endif %}
+            </ul>
+            <p class="offer__info-text">{{ section.settings.discount_why_text }}</p>
+            <div class="discount__offer-icons">
+              <p class="discount__offer-icons_title">{{ section.settings.discount_icons_title }}</p>
+                <div class="discount__icons-swiper js-discount__icons-swiper swiper">
+                  <ul class="discount__icons-list swiper-wrapper">
+                    {% for block in section.blocks %}
+                      <li class="discount__icons-item swiper-slide">
+                        <img src="{{ block.settings.discount_icons_image | image_url: width: 60 }}">
+                        <p>{{ block.settings.discount_icons_text }}</p>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                  <div class="swiper-pagination"></div>
+                </div>
+            </div>
+          </div>
+      {% endif %}
+      </div>
+    </div>
+  
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Discount Offer",
+  "max_blocks": 5,
+  "settings": [
+    {
+      "type": "color",
+      "id": "discount_background",
+      "label": "Discount background color"
+    },
+    {
+      "type": "text",
+      "id": "offer_title",
+      "label": "Offer title",
+      "default": "AN EXLUSIVE OFFER"
+    },
+    {
+      "type": "text",
+      "id": "offer_percent",
+      "label": "Offer percent",
+      "default": "30% OFF"
+    },
+    {
+      "type": "text",
+      "id": "offer_subtitle",
+      "label": "Offer subtitle",
+      "default": "Inductory Essentials Kit"
+    },
+    {
+      "type": "text",
+      "id": "offer_button",
+      "label": "Offer button text",
+      "default": "SHOP NOW"
+    },
+    {
+      "type": "url",
+      "id": "offer_button_url",
+      "label": "Offer button url"
+    },
+    {
+      "type": "text",
+      "id": "offer_gift_text",
+      "label": "Offer gift text",
+      "default": "FREE GIFT+ FREE SHIPPTING"
+    },
+    {
+      "type": "image_picker",
+      "id": "discount_offer_img",
+      "label": "Discount offer image"
+    },
+    {
+      "type": "text",
+      "id": "discount_why_title",
+      "label": "Offer why title",
+      "default": "WHY ELVY LAB?"
+    },
+    {
+      "type": "textarea",
+      "id": "discount_why_subtitle",
+      "label": "Offer why subtitle",
+      "default": "Fact: Men`s skin anatomically different and requires products and ingredients that target what they face most:"
+    },
+    {
+      "type": "text",
+      "id": "discount_list_item_1",
+      "label": "Discount list item 1",
+      "default": "Dryness"
+    },
+    {
+      "type": "text",
+      "id": "discount_list_item_2",
+      "label": "Discount list item 2",
+      "default": "Excess skin texture"
+    },
+    {
+      "type": "text",
+      "id": "discount_list_item_3",
+      "label": "Discount list item 3",
+      "default": "Rough skin texture"
+    },
+    {
+      "type": "text",
+      "id": "discount_list_item_4",
+      "label": "Discount list item 4",
+      "default": "Post-shave issues ike razor bumps and ingrown hairs..."
+    },
+    {
+      "type": "textarea", 
+      "id": "discount_why_text",
+      "label": "Offer why text",
+      "default": "ELVY Lab sees you and hears you, creating a simple, clinically- effective regimen for made exclusively for guys who want to look good without compromise or confusion. Each of our formulas is formulated by scientists and tested by dermatologists so all you have to worry about is enjoying the results."
+    },
+    {
+      "type": "text",
+      "id": "discount_icons_title",
+      "label": "Offer icons title",
+      "default": "Life may be hard, but skincare doesn`t have to be."
+    }, 
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 10
+    }
+  ],
+  "blocks": [
+    {
+      "type": "review",
+      "name": "Discount icons",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "discount_icons_image",
+          "label": "Discount icons image"
+        },
+        {
+          "type": "text",
+          "id": "discount_icons_text",
+          "label": "Discount icons text"
+        }
+      ]
+    }
+  ],
+	"presets": [
+    {
+      "name": "Discount Offer"
+    }
+  ]
+}
+{% endschema %}

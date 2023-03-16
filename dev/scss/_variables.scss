@@ -13,10 +13,12 @@ $c-white: c_rgb(var(--color-base-background-1));
 $c-text: c_rgb(var(--color-base-text));
 $c-alpha: c_rgba(var(--color-button), var(--alpha-button-background));
 
+$c-dark-blue: #031226;
+
 $grid-breakpoints: (
   xs: 0,
   sm: 750px,
   lg: 990px,
-  xl: 1500px,
+  xl: 1200px,
 );
 

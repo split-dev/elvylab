@@ -1,0 +1,76 @@
+
+.template--discount {
+  .page-title {
+    display: none;
+  }
+  .discount {
+    .page-width {
+      @include media-breakpoint-down(sm) {
+        padding: 0;
+      }
+    }
+  }
+  .discount__bar {
+    &-text {
+      background-color: $c-dark-blue;
+      padding: 12px 0px;
+      text-align: center;
+      & p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        letter-spacing: 0.6px;
+        color: $c-white;
+        text-transform: uppercase;
+      }
+    }
+  }
+  .discount-inner {
+    display: flex;
+    @include media-breakpoint-down(sm) {
+      flex-direction: column;
+    }
+    &__first {
+      flex: 0 1 60%;
+    }
+    &__second {
+      flex: 0 1 50%;
+    }
+    &__block {
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    &__star {
+      position: absolute;
+      left: 0;
+      bottom: 50px;
+      z-index: 2;
+      @include media-breakpoint-down(sm) {
+        bottom: -58px;
+      }
+      & svg {
+        @include media-breakpoint-down(sm) {
+          width: 98px;
+          height: 98px;
+        }
+      }
+    }
+    &__gift {
+      position: absolute;
+      right: -30px;
+      top: 25px;
+      z-index: 2;
+      @include media-breakpoint-down(sm) {
+        right: 12px;
+      }
+      & svg {
+        @include media-breakpoint-down(sm) {
+          width: 62px;
+          height: 62px;
+        }
+      }
+    }
+  }
+}

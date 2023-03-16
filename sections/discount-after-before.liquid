@@ -1,0 +1,151 @@
+{%- style -%}
+
+  .discount__simile-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+{%- endstyle -%}
+
+<div class="simile">
+  <div class="discount__simile-{{ section.id }}-padding">
+  
+    <div class="discount__simile page-width">
+      <div class="discount__simile-wrapper simile-inner">
+        <div class="simile__content simile__block">
+          {% if section.settings.simile_content_title != blank %}
+            <h2>{{ section.settings.simile_content_title }}</h2>
+            <ul class="simile__list">
+              {% for block in section.blocks %}
+                <li>
+                  <span>{{ block.settings.simile_percent }}</span>
+                  <p>{{ block.settings.simile_percent_text }}</p>
+                </li>
+              {% endfor %}
+            </ul>
+            {% if section.settings.simile_bottom_text != blank %}
+              <p class="simile__bottom-text">{{ section.settings.simile_bottom_text }}</p>
+            {% endif %}
+          {% endif %}
+          <h2></h2>
+        </div>
+        <div class="simile__images simile__block">
+          <div class="simile__images-wrapper">
+            <div class="simile__image simile-before">
+              {% if section.settings.simile_image_before != blank %}
+                <img src="{{ section.settings.simile_image_before | image_url: width: 260 }}">
+                <p>{{ section.settings.simile_text_before }}</p>
+              {% endif %}
+            </div>
+            <div class="simile__image simile-after">
+              {% if section.settings.simile_image_after != blank %}
+                <img src="{{ section.settings.simile_image_after | image_url: width: 260 }}">
+                <p>{{ section.settings.simile_text_after }}</p>
+              {% endif %}
+            </div>
+          </div>
+          {% if section.settings.simile_button_text != blank %}
+            <a class="simile__images-button" href="{{ section.settings.simile_button_url }}">{{ section.settings.simile_button_text }}</a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Discount After Before",
+  "max_blocks": 4,
+  "settings": [
+    {
+      "type": "text",
+      "id": "simile_content_title",
+      "label": "Results title",
+      "default": "REAL MEN REAL RESULTS"
+    },
+    {
+      "type": "text",
+      "id": "simile_bottom_text",
+      "label": "Results bottom text",
+      "default": "Based on an 8-week study using the ELVY Lab skincare regimen"
+    },
+    {
+      "type": "image_picker",
+      "id": "simile_image_before",
+      "label": "Results image before"
+    },
+    {
+      "type": "text",
+      "id": "simile_text_before",
+      "label": "Results text before",
+      "default": "Before"
+    },
+    {
+      "type": "image_picker", 
+      "id": "simile_image_after",
+      "label": "Results image after"
+    },
+    {
+      "type": "text",
+      "id": "simile_text_after",
+      "label": "Results text after",
+      "default": "After"
+    },
+    {
+      "type": "text",
+      "id": "simile_button_text",
+      "label": "Results button text",
+      "default": "Shop now"
+    },
+    {
+      "type": "url",
+      "id": "simile_button_url",
+      "label": "Results button url"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 10
+    }
+  ],
+  "blocks": [
+    {
+      "type": "advantage",
+      "name": "Results advantage item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "simile_percent",
+          "label": "Results advantage percent"
+        },
+        {
+          "type": "text",
+          "id": "simile_percent_text",
+          "label": "Results advantage text"
+        }
+      ]
+    }
+  ],
+	"presets": [
+    {
+      "name": "Discount After Before"
+    }
+  ]
+}
+{% endschema %}
