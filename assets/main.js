@@ -51,3 +51,29 @@ function swiperBrands() {
 }
 swiperBrands();
 window.addEventListener("resize", swiperBrands);
+
+
+var swiperFeatured = Swiper;
+var initFeatured = false;
+
+function swiperFeaturedProduct() {
+  if (window.innerWidth <= 1200) {
+    if (!initFeatured) {
+      initFeatured = true;
+      swiperFeatured = new Swiper(".js-discount__featured-swiper", {
+        slidesPerView: 1.3,
+        spaceBetween: 15,
+        breakpoints: {
+          767: {
+            slidesPerView: 6
+          }
+        }
+      });
+    }
+  } else if (initFeatured) {
+    swiperFeatured.destroy();
+    initFeatured = false;
+  }
+}
+swiperFeaturedProduct();
+window.addEventListener("resize", swiperFeaturedProduct);

@@ -9,6 +9,9 @@
       letter-spacing: 0.6px;
       color: #1E1E1E;
       text-align: center;
+      @include media-breakpoint-down(sm)  {
+        margin: 0px;
+      }
     }
     &-list {
       padding-left: 0px;

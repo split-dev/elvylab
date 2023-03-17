@@ -1,0 +1,105 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    background: {{ section.settings.extra_background }};
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+  .section-{{ section.id }}-padding {
+  padding-top: {{ section.settings.padding_top }}px;
+  padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+  }
+{%- endstyle -%}
+
+
+<section class="section-{{ section.id }}-padding" >
+  <div class="discount__featured page-width">
+    <div class="discount__featured-info">
+      {% if section.settings.featured_title != blank %}
+        <h2>{{ section.settings.featured_title }}</h2>
+      {% endif %}
+      <div class="discount__featured-swiper js-discount__featured-swiper swiper">
+        <ul class="discount__featured-list swiper-wrapper">
+          {% for block in section.blocks %}
+            {% if block.settings.featured_image != blank %}
+              <li class="discount__featured-item featured-item swiper-slide">
+                <img src="{{ block.settings.featured_image | image_url: width: 260 }}">
+                <div class="featured-item__info">
+                  <span>{{ block.settings.featured_image_name }}</span>
+                  <div class="featured-item__info--content">{{ block.settings.featured_image_description }}</div>
+                </div>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+  "name": "Discount Featured",
+  "settings": [
+    {
+      "type": "text",
+      "id": "featured_title",
+      "label": "Featured title",
+      "default": "SEE WHAT`S IN THE REGIMEN"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    { 
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+    ],
+    "blocks": [
+      {
+      "name": "Featured item",
+      "type": "text",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "featured_image",
+          "label": "Featured image"
+        },
+        {
+          "type": "text",
+          "id": "featured_image_name",
+          "label": "Featured image name"
+        },
+        {
+          "type": "richtext",
+          "id": "featured_image_description",
+          "label": "Featured image description"
+        }
+    ]
+  }
+],
+  "presets": [
+    {
+      "name": "Discount Featured"
+    }
+  ]
+}
+
+{% endschema %}
+
+

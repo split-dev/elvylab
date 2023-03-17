@@ -138,43 +138,108 @@
         "padding_bottom": 60
       }
     },
+    "6240ddbd-f0e4-4833-9b63-67d0bd7308c3": {
+      "type": "discount-featured",
+      "blocks": {
+        "a6ec4d6c-2368-4070-a0df-5af6e2909dce": {
+          "type": "text",
+          "settings": {
+            "featured_image": "shopify:\/\/shop_images\/featured_1.png",
+            "featured_image_name": "GENTLE EXFOLIATING CLEANSER",
+            "featured_image_description": "<ul><li>Minimizes pores<\/li><li>Tackles breakouts and razor bumps<\/li><\/ul>"
+          }
+        },
+        "db8505c2-761a-42d5-8bb6-c397f16a4d78": {
+          "type": "text",
+          "settings": {
+            "featured_image": "shopify:\/\/shop_images\/featured_2.png",
+            "featured_image_name": "BRIGHTENING SERUM",
+            "featured_image_description": "<ul><li>Brightens dark spots<\/li><li>Filming & anti-aging<\/li><\/ul>"
+          }
+        },
+        "0ba41abf-47de-4945-bb53-eef27750d81a": {
+          "type": "text",
+          "settings": {
+            "featured_image": "shopify:\/\/shop_images\/featured_3.png",
+            "featured_image_name": "REPLENISHING MOISTURIZER",
+            "featured_image_description": "<ul><li>Hydrates skin & facial hair<\/li><li>Non-greasy or pore-clogging<\/li><\/ul>"
+          }
+        },
+        "52e334cf-9c7f-45fd-9cb4-2a2a379c8e73": {
+          "type": "text",
+          "settings": {
+            "featured_image": "shopify:\/\/shop_images\/featured_4.png",
+            "featured_image_name": "TONING & FIRMING EYE CREAM",
+            "featured_image_description": "<ul><li>Fights dark circles<\/li><li>Instantly calming & cooling<\/li><li>Tackles crow’s feet<\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "a6ec4d6c-2368-4070-a0df-5af6e2909dce",
+        "db8505c2-761a-42d5-8bb6-c397f16a4d78",
+        "0ba41abf-47de-4945-bb53-eef27750d81a",
+        "52e334cf-9c7f-45fd-9cb4-2a2a379c8e73"
+      ],
+      "settings": {
+        "featured_title": "SEE WHAT`S IN THE REGIMEN",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16790584276ea5afdb": {
+      "type": "apps",
+      "blocks": {
+        "f100e161-95ce-4282-9cea-e2ec0b5d5cfa": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1100
+          }
+        }
+      },
+      "block_order": [
+        "f100e161-95ce-4282-9cea-e2ec0b5d5cfa"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "ca4d264d-9d89-46a4-a72a-d00f9f464356": {
       "type": "discount-brands",
       "blocks": {
         "ac21bd9b-05ea-4557-bbb5-3a2fc7714b78": {
           "type": "text",
           "settings": {
-            "brands_logo": "shopify:\/\/shop_images\/image_2.png"
+            "brands_logo": "shopify:\/\/shop_images\/CNN.png"
           }
         },
         "161b7a47-3de5-46ea-976e-8c90695d922a": {
           "type": "text",
           "settings": {
-            "brands_logo": "shopify:\/\/shop_images\/image_4.png"
+            "brands_logo": "shopify:\/\/shop_images\/New_Beauty.png"
           }
         },
         "9e82c8b0-380e-429c-b80a-1f4eb7643964": {
           "type": "text",
           "settings": {
-            "brands_logo": "shopify:\/\/shop_images\/image_3.png"
+            "brands_logo": "shopify:\/\/shop_images\/Yahoo_Finance.png"
           }
         },
         "f64753a7-cd08-496e-beaa-238955076ad5": {
           "type": "text",
           "settings": {
-            "brands_logo": "shopify:\/\/shop_images\/image_1.png"
+            "brands_logo": "shopify:\/\/shop_images\/Bloomberg.png"
           }
         },
         "f031c951-045e-4353-beec-07c298d8817e": {
           "type": "text",
           "settings": {
-            "brands_logo": "shopify:\/\/shop_images\/image_5.png"
+            "brands_logo": "shopify:\/\/shop_images\/ET_36d76969-7edd-4b6b-918f-42810565e13e.png"
           }
         },
         "6b260eb5-7e7a-4e33-837c-b12fffab4de7": {
           "type": "text",
           "settings": {
-            "brands_logo": "shopify:\/\/shop_images\/image_8.png"
+            "brands_logo": "shopify:\/\/shop_images\/Rolling_Stone.png"
           }
         }
       },
@@ -189,7 +254,27 @@
       "settings": {
         "brands_title": "AS SEEN IN",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 80
+      }
+    },
+    "1679058472ba7b1559": {
+      "type": "apps",
+      "blocks": {
+        "d1b1dd0e-2454-45e5-8869-7d1aed90dfb3": {
+          "type": "shopify:\/\/apps\/tagembed-social-media-review\/blocks\/app-block\/16930ea9-fb6e-46ac-90fd-526ff0431478",
+          "settings": {
+            "tagembed_widget": "73246",
+            "tagembed_widget_position": "center",
+            "tagembed_widget_height": "450",
+            "tagembed_widget_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "d1b1dd0e-2454-45e5-8869-7d1aed90dfb3"
+      ],
+      "settings": {
+        "include_margins": true
       }
     }
   },
@@ -198,6 +283,9 @@
     "a975da96-2c7d-4049-ba51-9b296b73d849",
     "abd02e49-69a8-494b-878a-7e2c37f4d135",
     "dc6393fd-1488-45b1-a0ad-d46928e4b66f",
-    "ca4d264d-9d89-46a4-a72a-d00f9f464356"
+    "6240ddbd-f0e4-4833-9b63-67d0bd7308c3",
+    "16790584276ea5afdb",
+    "ca4d264d-9d89-46a4-a72a-d00f9f464356",
+    "1679058472ba7b1559"
   ]
 }
