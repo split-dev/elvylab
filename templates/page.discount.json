@@ -72,7 +72,7 @@
         "offer_percent": "30% OFF",
         "offer_subtitle": "Inductory Essentials Kit",
         "offer_button": "SHOP NOW",
-        "offer_button_url": "shopify:\/\/collections\/all",
+        "offer_button_url": "shopify:\/\/products\/your-essentials-regimen",
         "offer_gift_text": "FREE GIFT+ FREE SHIPPTING",
         "discount_offer_img": "shopify:\/\/shop_images\/photo_model.png",
         "discount_why_title": "WHY ELVY LAB?",
@@ -133,7 +133,7 @@
         "simile_image_after": "shopify:\/\/shop_images\/AFTER.png",
         "simile_text_after": "After",
         "simile_button_text": "Shop now",
-        "simile_button_url": "shopify:\/\/collections\/all",
+        "simile_button_url": "shopify:\/\/products\/your-essentials-regimen",
         "padding_top": 60,
         "padding_bottom": 60
       }
