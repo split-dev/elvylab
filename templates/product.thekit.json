@@ -75,27 +75,26 @@
           "settings": {
           }
         },
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "Includes all the singles with the leather toiletry bag.",
-            "text_style": "subtitle"
-          }
-        },
         "judgeme_preview_badge_product_page_06956818": {
           "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
           "settings": {
           }
         },
         "790f3493-ffbf-46ff-acae-e8d349bb2264": {
           "type": "text",
           "settings": {
-            "text": "Men’s skincare shouldn’t be confusing – it should get the job done without the stress. Our simple skincare system is formulated by dermatologists and specifically targets concerns men face on the daily: rough skin, buildup, razor burn\/bumps, ingrowns and yes, even breakouts and wrinkles, to keep their skin looking good. Just follow the numbers and we'll take care of the rest.",
+            "text": "",
             "text_style": "body"
           }
         },
         "b471944d-5c54-4bae-8067-fb4a15ca8fca": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "SUBSCRIPTION OPTIONS",
             "text_style": "subtitle"
@@ -104,7 +103,7 @@
         "84f158bc-0554-4077-afd5-9daab4901491": {
           "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
           "settings": {
-            "product": "{{product}}"
+            "product": "your-essentials-regimen"
           }
         },
         "quantity_selector": {
@@ -116,6 +115,13 @@
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true
+          }
+        },
+        "0c5a2bc1-1b45-4e70-9353-c8f53ce91d45": {
+          "type": "text",
+          "settings": {
+            "text": "Please note exact shipment times may vary. To customize future shipments and changes, email customer service anytime at info@elvylab.comApproximately two month after your first order is shipped, and then approximately every two months thereafter, you will be sent a new shipment of ELVY Lab-Essentials 4 piece kit. Each shipment will be charged to the payment method you provide today, before the next shipment for $74.99 unless you email to cancel. There is no commitment and no minimum to buy.All orders are subject to applicable sales tax.",
+            "text_style": "subtitle"
           }
         },
         "collapsible-row-0": {
@@ -185,12 +191,6 @@
           "settings": {
           }
         },
-        "description": {
-          "type": "description",
-          "disabled": true,
-          "settings": {
-          }
-        },
         "share": {
           "type": "share",
           "settings": {
@@ -200,13 +200,14 @@
       },
       "block_order": [
         "title",
-        "vendor",
         "judgeme_preview_badge_product_page_06956818",
+        "description",
         "790f3493-ffbf-46ff-acae-e8d349bb2264",
         "b471944d-5c54-4bae-8067-fb4a15ca8fca",
         "84f158bc-0554-4077-afd5-9daab4901491",
         "quantity_selector",
         "buy_buttons",
+        "0c5a2bc1-1b45-4e70-9353-c8f53ce91d45",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
@@ -215,7 +216,6 @@
         "price",
         "variant_picker",
         "213fc549-72b7-4d53-8893-ac880db085ca",
-        "description",
         "share"
       ],
       "custom_css": [
@@ -301,6 +301,7 @@
     },
     "judgeme_section_review_widget_8862": {
       "type": "apps",
+      "disabled": true,
       "blocks": {
         "judgeme_review_widget_b0e21631": {
           "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
@@ -337,6 +338,106 @@
         "full_width": true,
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "57012949-5162-4ef7-abf5-f5920d1b55cc": {
+      "type": "custom_reviews",
+      "blocks": {
+        "d24459c9-4bc9-4faa-8e6a-69441789d092": {
+          "type": "slide",
+          "settings": {
+            "photo": "shopify:\/\/shop_images\/AFTER.png",
+            "title": "<p>Jalal Z.<\/p>",
+            "rating": 5,
+            "review": "<p>I just received my package and I love everything from the packaging to the way the products smell. Everything glides so smoothly and leaves no residue. The numbers make it extremely quick and simple for me to use the products. I instantly feel the freshness and tightness on my skin. I am an avid user of skincare and can confidently say this product is bomb! Way better than anything else out there. I’ve found my new favorite go-to daily skincare!<\/p>",
+            "label_link": "Read more",
+            "link": ""
+          }
+        },
+        "10a3e961-6f34-4055-83d5-43b088c195c0": {
+          "type": "slide",
+          "settings": {
+            "title": "<p>Diego Perez<\/p>",
+            "rating": 5,
+            "review": "<p>Now I was looking for something to help me with my dry yet oily skin. Its hard to find the right product to help with the aging skin so consequently was digging around on line and have found the Mecca of all skin care Regimens! The products are easy to <br\/>Use and it makes me look way younger and get great compliments. No look further they don’t let you down!<\/p>",
+            "label_link": "Read more",
+            "link": ""
+          }
+        },
+        "32b6ca4c-d59f-4d85-844e-09c081175d5d": {
+          "type": "slide",
+          "settings": {
+            "title": "<p>Venky<\/p>",
+            "rating": 5,
+            "review": "<p>Absolutely love this regimen! There are so many great things to be said about these products. It feels amazing on my skin and the fragrance makes you feel like you are in a luxury spa. The standout is the eye cream with its built-in applicator that makes it easy for you to get it done right! Having made the switch from Lumin, what truly defines the simple and easy to use Elvy Lab regimen is the design of the products, big bold numbers and clear text for step by step use, the pump system which means no wasting time opening jars or taking lids of bottles, all of which helps shave off those precious seconds in the morning, to accomplish a complete skincare routine, all in under 2 minutes! An excellent concept, that handles each component for guys too busy scrambling around, that don’t need to look elsewhere anymore.<\/p>",
+            "label_link": "Read more",
+            "link": ""
+          }
+        },
+        "bde4996c-992b-414b-91bc-23a90d0b121c": {
+          "type": "slide",
+          "settings": {
+            "title": "<p>A.D.<\/p>",
+            "rating": 5,
+            "review": "<p>I have been looking for a good skincare routine for a long time now. Came across this brand and got myself a kit. And I like the luxurious look and feel of this brand and the bottles are so slick and fits anywhere easily. I travel a lot so and its TSA friendly and not only that I can fit all my other toiletries in the bag too. I have used this kit for a month and I have been getting a lot of compliments from everyone on how much my skin has improved. I am hooked!!!<\/p>",
+            "label_link": "Read more",
+            "link": ""
+          }
+        },
+        "cd8f0e78-6f64-4f42-9a54-e5175d0d56c9": {
+          "type": "slide",
+          "settings": {
+            "title": "<p>Leah<\/p>",
+            "rating": 5,
+            "review": "<p>Bought this for my husband and finally I can say my job of keeping my man looking good is now done! His skin looks so amazingly clean and glowy. Highly recommend<\/p>",
+            "label_link": "Read more",
+            "link": ""
+          }
+        },
+        "dd671e95-32ec-475b-9883-39fdf23f9621": {
+          "type": "slide",
+          "settings": {
+            "title": "<p>Aman S<\/p>",
+            "rating": 5,
+            "review": "<p>What a great way to get ready for the holidays with the arrival of my Elvy Lab skincare regimen! Amazing product and in the perfect size too. Travel is going to feel so much better now with finally being able to keep my skincare in my carryon. Ready to enter into the new year looking my best thanks to skincare by Elvy Lab!<\/p>",
+            "label_link": "Read more",
+            "link": ""
+          }
+        },
+        "b9bd1941-78f0-4ded-8e44-cd8a86600ce8": {
+          "type": "slide",
+          "settings": {
+            "title": "<p>C. K.<\/p>",
+            "rating": 5,
+            "review": "<p>This regimen has changed the way I manage my skin care, and it definitely shows. I’ve had numerous people comment on how nice my skin looks and with just 5 minutes every morning it keeps getting better! I love how easy each product is to apply and with numbered bottles, you can’t mess this up. The under eye applicator is a game changer!<\/p>",
+            "label_link": "Read more",
+            "link": ""
+          }
+        },
+        "f766882f-8f9d-4507-8004-0224fd5bfb4e": {
+          "type": "slide",
+          "settings": {
+            "title": "<p>Mark<\/p>",
+            "rating": 5,
+            "review": "<p>Waking up with my face feeling just as good, and looking as fresh and bright, as it does all day is the reason why I can't stop obsessing about the amazing new skincare products from Elvy Lab. The oh so easy to follow regimen actually makes you want to take care of your face day and night. To the team behind Elvy Lab, great job. <br\/>Well it's time for my PM regimen now!<\/p>",
+            "label_link": "Read more",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "d24459c9-4bc9-4faa-8e6a-69441789d092",
+        "10a3e961-6f34-4055-83d5-43b088c195c0",
+        "32b6ca4c-d59f-4d85-844e-09c081175d5d",
+        "bde4996c-992b-414b-91bc-23a90d0b121c",
+        "cd8f0e78-6f64-4f42-9a54-e5175d0d56c9",
+        "dd671e95-32ec-475b-9883-39fdf23f9621",
+        "b9bd1941-78f0-4ded-8e44-cd8a86600ce8",
+        "f766882f-8f9d-4507-8004-0224fd5bfb4e"
+      ],
+      "settings": {
+        "title": "CUSTOMER REVIEWS",
+        "limit_text": 135
       }
     },
     "1668811831e9b0ca1f": {
@@ -405,6 +506,7 @@
     "related-products",
     "judgeme_section_review_widget_8862",
     "70d0d4ca-ce18-47ab-851a-9c6459d26b86",
+    "57012949-5162-4ef7-abf5-f5920d1b55cc",
     "1668811831e9b0ca1f",
     "e7265540-d3ab-4636-b709-448ca882afe4"
   ]

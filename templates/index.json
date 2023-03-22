@@ -67,16 +67,6 @@
     },
     "1676384414c31477fc": {
       "type": "apps",
-      "blocks": {
-        "a75f0b13-04d0-4499-9cfd-29b3ca1aea60": {
-          "type": "shopify:\/\/apps\/bee-logo-showcase-banner-logos\/blocks\/app-block\/aecc13ad-a68a-4275-a50d-950c5b442628",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "a75f0b13-04d0-4499-9cfd-29b3ca1aea60"
-      ],
       "settings": {
         "include_margins": true
       }

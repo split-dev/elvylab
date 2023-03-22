@@ -1,0 +1,211 @@
+{{ 'owl.carousel.css' | asset_url | stylesheet_tag }}
+{{ 'owl.theme.css' | asset_url | stylesheet_tag }}
+{{ 'custom_reviews.scss.css' | asset_url | stylesheet_tag }}
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="{{ 'owl.carousel.min.js' | asset_url }}"></script>
+
+{% comment %}{% assign handle = page.handle %}
+{% render 'judgeme_widgets', widget_type: 'judgeme_review_widget', concierge_install: true, product: all_products[handle] %}
+{% endcomment %}
+<div style="overflow: hidden">
+    <div class="cs_wrap page-width">
+        <h2>
+            {{ section.settings.title }}
+        </h2>
+        <div class="cs__helper" style="display: block;height: 1px;opacity: 0;"></div>
+        <div class="cs_container">
+            <div class="custom_reviews owl-carousel owl-theme">
+                {%- for block in section.blocks -%}
+                    <div class="item">
+                        <div class="inner">
+                            <div class="inner_top">
+                                {% if block.settings.photo != blank %}
+                                    <img src="{{ block.settings.photo | img_url: 'master' }}" alt="" />
+                                {% else %}
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52" fill="none">
+                                        <rect width="52" height="52" rx="26" fill="#F1F3F6"/>
+                                        <mask id="mask0_104_1232" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="15" y="29" width="22" height="10">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M15.6006 29.2451H36.1925V38.8313H15.6006V29.2451Z" fill="white"/>
+                                        </mask>
+                                        <g mask="url(#mask0_104_1232)">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M25.8976 31.1952C20.3583 31.1952 17.5503 32.1468 17.5503 34.0253C17.5503 35.9207 20.3583 36.8814 25.8976 36.8814C31.4356 36.8814 34.2423 35.9298 34.2423 34.0513C34.2423 32.1559 31.4356 31.1952 25.8976 31.1952ZM25.8979 38.8313C23.3512 38.8313 15.6006 38.8313 15.6006 34.0252C15.6006 29.7404 21.4779 29.2451 25.8979 29.2451C28.4446 29.2451 36.1926 29.2451 36.1926 34.0512C36.1926 38.336 30.3166 38.8313 25.8979 38.8313Z" fill="#0C111A"/>
+                                        </g>
+                                        <mask id="mask1_104_1232" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="18" y="13" width="15" height="14">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M18.9932 13.0005H32.7992V26.8047H18.9932V13.0005Z" fill="white"/>
+                                        </mask>
+                                        <g mask="url(#mask1_104_1232)">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M25.8978 14.8558C23.1145 14.8558 20.8499 17.1191 20.8499 19.9024C20.8408 22.6766 23.0885 24.9386 25.8601 24.949L25.8978 25.8772V24.949C28.6798 24.949 30.9431 22.6844 30.9431 19.9024C30.9431 17.1191 28.6798 14.8558 25.8978 14.8558ZM25.8975 26.8042H25.8559C22.0573 26.7925 18.9802 23.6946 18.9932 19.8986C18.9932 16.0961 22.0898 12.9995 25.8975 12.9995C29.7039 12.9995 32.7992 16.0961 32.7992 19.9025C32.7992 23.7089 29.7039 26.8042 25.8975 26.8042Z" fill="#0C111A"/>
+                                        </g>
+                                    </svg>
+                                {% endif %}
+                                <div class="name">
+                                    {{ block.settings.title }}
+                                </div>
+                            </div>
+                            <div class="inner_content">
+                                <div class="stars">
+                                    {% assign num = block.settings.rating %}
+                                    {% for i in (1..num) %}
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+                                            <path d="M10 15.27L16.18 19L14.54 11.97L20 7.24L12.81 6.63L10 0L7.19 6.63L0 7.24L5.46 11.97L3.82 19L10 15.27Z" fill="#576B75"/>
+                                        </svg>
+                                    {% endfor %}
+                                </div>
+                                <div class="text">
+                                    {{ block.settings.review }}
+                                </div>
+                                {% if block.settings.label_link != blank or block.settings.link != blank %}
+                                    <div class="link">
+                                        <a href="{{ block.settings.link }}">{{ block.settings.label_link }}<svg xmlns="http://www.w3.org/2000/svg" width="12" height="4" viewBox="0 0 12 4" fill="none">
+                                                <path d="M1 1.75C0.861929 1.75 0.75 1.86193 0.75 2C0.75 2.13807 0.861929 2.25 1 2.25V1.75ZM11.1768 2.17678C11.2744 2.07915 11.2744 1.92085 11.1768 1.82322L9.58579 0.232233C9.48816 0.134602 9.32986 0.134602 9.23223 0.232233C9.1346 0.329864 9.1346 0.488155 9.23223 0.585786L10.6464 2L9.23223 3.41421C9.1346 3.51184 9.1346 3.67014 9.23223 3.76777C9.32986 3.8654 9.48816 3.8654 9.58579 3.76777L11.1768 2.17678ZM1 2.25H11V1.75H1V2.25Z" fill="#757575"/>
+                                            </svg></a>
+                                    </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    jQuery(".custom_reviews .item").each(function (i, el){
+        let text = jQuery(el).find('.text p').text();
+        let len = text.length;
+        if(len > Number('{{ section.settings.limit_text }}')){
+            jQuery(el).find('.text p').text(jQuery(el).find('.text p').text().substr(0,134)+'...  ');
+        }
+    });
+    let arrow = '<svg xmlns="http://www.w3.org/2000/svg" width="15" height="13" viewBox="0 0 15 13" fill="none">' +
+        '<path d="M14 6.22108L1 6.22108" stroke="#1B1B1B" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>'+
+        '<path d="M8.75684 1.00002L14.0002 6.22083L8.75684 11.4425" stroke="#1B1B1B" '+
+        'stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>'+
+        '</svg>'
+
+    let owl = jQuery('.custom_reviews').owlCarousel({
+        loop: false,
+        nav: true,
+        navText: ['<span class="prev">'+arrow+'</span>','<span class="next">'+arrow+'</span>'],
+        dots: false,
+        autoplay: false,
+        stagePadding: jQuery('.cs__helper').offset().left,
+        items: 3,
+        responsive:{
+            0:{
+                items: 1,
+                stagePadding: 15
+            },
+            768:{
+                items: 2,
+                stagePadding: jQuery('.cs__helper').offset().left
+            },
+            1024:{
+                items: 3,
+                stagePadding: jQuery('.cs__helper').offset().left
+            }
+        }
+    });
+
+    jQuery(window).on('resize', function (){
+        owl.trigger('destroy.owl.carousel');
+        owl.html(owl.find('.owl-stage-outer').html()).removeClass('owl-loaded');
+
+        jQuery('.custom_reviews').owlCarousel({
+            loop: false,
+            nav: true,
+            navText: ['<span class="prev">'+arrow+'</span>','<span class="next">'+arrow+'</span>'],
+            dots: false,
+            autoplay: false,
+            stagePadding: jQuery('.cs__helper').offset().left,
+            items: 3,
+            responsive:{
+                0:{
+                    items: 1,
+                    stagePadding: 15
+                },
+                768:{
+                    items: 2,
+                    stagePadding: jQuery('.cs__helper').offset().left
+                },
+                1024:{
+                    items: 3,
+                    stagePadding: jQuery('.cs__helper').offset().left
+                }
+            }
+        });
+    });
+    //});
+</script>
+
+{% schema %}
+    {
+        "name": "Custom Reviews",
+        "settings": [
+            {
+                "type": "text",
+                "id": "title",
+                "label": "Title Reviews",
+                "default": "CUSTOMER REVIEWS"
+            },
+            {
+                "type": "number",
+                "id": "limit_text",
+                "label": "Limit characters in review",
+                "default": 135
+            }
+        ],
+        "blocks": [
+            {
+                "type": "slide",
+                "name": "slide",
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "photo",
+                        "label": "Image Photo"
+                    },
+                    {
+                        "type": "richtext",
+                        "id": "title",
+                        "label": "Name",
+                        "default": "<p>James <br />Jansense</p>"
+                    },
+                    {
+                        "type": "range",
+                        "id": "rating",
+                        "label": "Rating",
+                        "min": 1,
+                        "max": 5,
+                        "step": 1,
+                        "default": 5
+                    },
+                    {
+                        "type": "richtext",
+                        "id": "review",
+                        "label": "Review",
+                        "default": "<p>Now I was looking for something to help me with my dry yet oily skin. Its hard to find the right product to help with the aging skin...</p>"
+                    },
+                    {
+                        "type": "text",
+                        "id": "label_link",
+                        "label": "Label link",
+                        "default": "Read more"
+                    },
+                    {
+                        "type": "url",
+                        "id": "link",
+                        "label": "URL link"
+                    }
+                ]
+            }
+        ],
+        "presets": [
+            {
+                "name": "Custom Reviews"
+            }
+        ]
+    }
+{% endschema %}
