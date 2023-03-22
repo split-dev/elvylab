@@ -68,8 +68,10 @@
       line-height: 16px;
       letter-spacing: 0.6px;
       color: #787878;
-      max-width: 50%;
-      padding-top: 20px;
+      max-width: 80%;
+      margin: 0 auto;
+      text-align: center;
+      padding: 10px 0px 20px 0px;
       @include media-breakpoint-down(sm) {
         display: none;
       }
