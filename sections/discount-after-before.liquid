@@ -22,7 +22,11 @@
                 </li>
               {% endfor %}
             </ul>
+            {% if section.settings.simile_bottom_text != blank %}
+              <p class="simile__bottom-text">{{ section.settings.simile_bottom_text }}</p>
+            {% endif %}
           {% endif %}
+          <h2></h2>
         </div>
         <div class="simile__images simile__block">
           <div class="simile__images-wrapper">
@@ -39,9 +43,6 @@
               {% endif %}
             </div>
           </div>
-          {% if section.settings.simile_bottom_text != blank %}
-            <p class="simile__bottom-text">{{ section.settings.simile_bottom_text }}</p>
-          {% endif %}
           {% if section.settings.simile_button_text != blank %}
             <a class="simile__images-button" href="{{ section.settings.simile_button_url }}">{{ section.settings.simile_button_text }}</a>
           {% endif %}

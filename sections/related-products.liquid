@@ -35,6 +35,9 @@
         role="list"
       >
         {% for recommendation in recommendations.products %}
+          {% if recommendation.title == 'Your Essentials Regimen' %}
+            {% continue %}
+          {% endif %}
           <li class="grid__item">
             {% render 'card-product',
               card_product: recommendation,
